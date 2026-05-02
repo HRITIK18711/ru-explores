@@ -85,6 +85,46 @@ const storiesData = {
     
   ],
 
+  "india-gate-delhi": [
+    { image: "/Image/india-gate-delhi-01.jpg" },
+    { image: "/Image/india-gate-delhi-02.jpg" },
+    { image: "/Image/india-gate-delhi-03.jpg" },
+    { image: "/Image/india-gate-delhi-04.jpg" },
+    { image: "/Image/india-gate-delhi-05.jpg" },
+    { image: "/Image/india-gate-delhi-06.jpg" },
+    { image: "/Image/india-gate-delhi-07.jpg" },
+    { image: "/Image/india-gate-delhi-08.jpg" },
+    { image: "/Image/india-gate-delhi-09.jpg" },
+    { image: "/Image/india-gate-delhi-10.jpg" },
+    
+  ],
+
+  "safdarjung-tomb-delhi": [
+    { image: "/Image/safdarjung-tomb-delhi-01.jpg" },
+    { image: "/Image/safdarjung-tomb-delhi-02.jpg" },
+    { image: "/Image/safdarjung-tomb-delhi-03.jpg" },
+    { image: "/Image/safdarjung-tomb-delhi-04.jpg" },
+    { image: "/Image/safdarjung-tomb-delhi-05.jpg" },
+    { image: "/Image/safdarjung-tomb-delhi-06.jpg" },
+    { image: "/Image/safdarjung-tomb-delhi-07.jpg" },
+    { image: "/Image/safdarjung-tomb-delhi-08.jpg" },
+    { image: "/Image/safdarjung-tomb-delhi-09.jpg" },    
+  ],
+
+  "hemkund-sahib-trek-uttarakhand": [
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-01.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-02.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-03.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-04.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-05.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-06.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-07.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-08.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-09.jpg" },
+    { image: "/Image/hemkund-sahib-trek-uttarakhand-10.jpg" },
+    
+  ],
+
   "malcha-mahal-delhi": [
     { image: "/Image/malcha-mahal-delhi-01.jpg" },
     { image: "/Image/malcha-mahal-delhi-02.jpg" },

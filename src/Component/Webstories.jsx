@@ -43,7 +43,29 @@ export const stories = [
     image: "/Image/malcha-mahal-delhi-01.jpg",
   }, 
 
-  
+   {
+    id: 19,
+    slug: "india-gate-delhi",
+    title: "India Gate Delhi",
+    createdBy: "Pragya Singh",
+    image: "/Image/india-gate-delhi-01.jpg",
+  }, 
+{
+    id: 20,
+    slug: "hemkund-sahib-trek-uttarakhand",
+    title: "Hemkund Sahib Trek Uttarakhand",
+    createdBy: "Rohit Upadhyay",
+    image: "/Image/hemkund-sahib-trek-uttarakhand-01.jpg",
+  }, 
+
+  {
+    id: 21,
+    slug: "safdarjung-tomb-delhi",
+    title: "safdarjung-tomb-delhi",
+    createdBy: "Pragya Singh",
+    image: "/Image/safdarjung-tomb-delhi-01.jpg",
+  }, 
+
   {
     id: 11,
     slug: "akshardham-temple-delhi",
