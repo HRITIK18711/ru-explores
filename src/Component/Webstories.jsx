@@ -159,7 +159,7 @@ export const stories = [
   {
     id: 9,
     slug: "nawegaon-nagzira-tiger-reserve-maharashtra",
-    title: "Nawegaon Nagzira Tiger Researve",
+    title: "Nawegaon Nagzira Tiger Reserve",
     createdBy: "Shubham Ghodke",
    image: "/Image/nawegaon-nagzira-tiger-researve-maharashtra-01.jpg"
   },
