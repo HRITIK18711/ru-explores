@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
-  { slug: "sarojini-nagar-market-delhi-travel-guide", title: "Sarojini Nagar Market, Delhi: The Ultimate Budget Shopping Guide", image: "/Image/sarojini-nagar-market-delhi-01.png" },
+  { slug: "jantar-mantar-delhi-travel-guide", title: "Jantar Mantar Delhi - Complete Guide, History, Timings & Things to Do", image: "/Image/jantar-mantar-delhi-travel-guide-01.jpg" },
   { slug: "lajpat-nagar-market-delhi-travel-guide", title: "Lajpat Nagar Market Guide: Shopping, Food, Tips & How to Reach", image: "/Image/lajpat-nagar-market-delhi-01.png" },
+  { slug: "sarojini-nagar-market-delhi-travel-guide", title: "Sarojini Nagar Market, Delhi: The Ultimate Budget Shopping Guide", image: "/Image/sarojini-nagar-market-delhi-01.png" },
   { slug: "safdarjung-tomb-delhi-travel-guide", title: "Safdarjung’s Tomb: Delhi’s Most Underrated Mughal Monument History, Timings and Travel Guide", image: "/Image/safdarjung-tomb-delhi-travel-guide-01.jpg" },
   { slug: "red-fort-delhi-travel-guide", title: "Red Fort, Delhi: History, Timings, Best Time to Visit & The Story Most People Miss", image: "/Image/red-fort-delhi-01.png" },
   { slug: "chopta-tungnath-chandrashila-trek-uttarakhand-travel-guide", title: "Chopta Tungnath Chandrashila Trek Uttarakhand – Best Time, Itinerary & Travel Guide", image: "/Image/chopta-tungnath-chandrashila-trek-uttarakhand-01.jpg" },

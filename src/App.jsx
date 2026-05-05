@@ -40,6 +40,7 @@ import Safdarjunga from "./Component/Safdarjunga";
 import PhotoStory1 from "./Component/PhotoStory1";
 import Sarojini from "./Component/Sarojini";
 import Lajpat from "./Component/Lajpat";
+import JantarMantar from "./Component/Jantarmantar";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -126,7 +127,7 @@ function App() {
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/disc" element={<Disc />} />
               <Route path="/kedar" element={<Kedar />} />
-              <Route path="/metro" element={<Metro />} />
+              <Route path="/metro" element={<MetroData />} />
 
               {/* IMPORTANT */}
               <Route
@@ -138,6 +139,10 @@ function App() {
               <Route
                 path="/mahabodhi-temple-bihar-travel-guide"
                 element={<Mahabhodi />}
+              />
+              <Route
+                path="/jantar-mantar-delhi-travel-guide"
+                element={<JantarMantar />}
               />
               <Route
                 path="/lajpat-nagar-market-delhi-travel-guide"

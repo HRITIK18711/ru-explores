@@ -38,10 +38,24 @@ const metroData = [
         type: "image",
     },
     {
-        slug: "uttar-pradesh-metro",
-        title: "Uttar Pradesh Metro",
+        slug: "lucknow-metro",
+        title: "Lucknow Metro",
         logo: "/Image/uttar-pradesh-metro.png",
-        map: "/Image/uttar-pradesh-metro-map.png",
+        map: "/Image/lucknow-metro-map.png",
+        type: "image",
+    },
+    {
+        slug: "kanpur-metro",
+        title: "Kanpur Metro",
+        logo: "/Image/uttar-pradesh-metro.png",
+        map: "/Image/kanpur-metro-map.png",
+        type: "image",
+    },
+    {
+        slug: "agra-metro",
+        title: "Agra Metro",
+        logo: "/Image/uttar-pradesh-metro.png",
+        map: "/Image/agra-metro-map.png",
         type: "image",
     },
 ];
@@ -50,64 +64,75 @@ export default function MetroData() {
     const { slug } = useParams();
     const [isFullScreen, setIsFullScreen] = useState(false);
 
-    // ✅ LIST VIEW
+    // ✅ LIST VIEW (UPDATED UI)
     if (!slug) {
         return (
-            <div className="bg-black min-h-screen pt-24 pb-10 px-4">
+            <div
+                className="min-h-screen pt-24 pb-10 px-4 bg-cover bg-center relative"
+                style={{ backgroundImage: "url('/Image/mountain-bg.jpg')" }}
+            >
 
-                <h2 className="text-2xl sm:text-3xl font-bold text-white text-center mb-10">
-                    🚇 Metro Routes
-                </h2>
+                {/* OVERLAY */}
+                <div className="absolute inset-0 bg-white/70 backdrop-blur-sm"></div>
 
-                <div className="grid grid-cols-3 gap-8 max-w-md mx-auto">
+                {/* CONTENT */}
+                <div className="relative z-10">
 
-                    {metroData.map((metro) => (
-                        <Link to={`/metro/${metro.slug}`} key={metro.slug}>
-                            <div className="flex flex-col items-center group">
+                    <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
+                        🚇 Metro Routes
+                    </h2>
 
-                                {/* OUTER CIRCLE */}
-                                <div className="
-                                    w-[95px] h-[95px]
-                                    rounded-full
-                                    bg-gradient-to-br from-gray-100 to-gray-300
-                                    shadow-md
-                                    flex items-center justify-center
-                                    transition duration-300
-                                    group-hover:scale-110 group-hover:shadow-xl
-                                ">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-10 max-w-4xl mx-auto">
 
-                                    {/* INNER FIX (LOGO ALIGNMENT) */}
-                                    <div className="w-[70%] h-[70%] bg-white rounded-full flex items-center justify-center p-2">
+                        {metroData.map((metro) => (
+                            <Link to={`/metro/${metro.slug}`} key={metro.slug}>
+                                <div className="flex flex-col items-center group">
 
-                                        <img
-                                            src={metro.logo}
-                                            alt={metro.title}
-                                            className={`
-                                                max-w-full max-h-full object-contain
-                                                ${metro.slug === "mumbai-metro" ? "scale-90" : ""}
-                                                ${metro.slug === "patna-metro" ? "scale-95" : ""}
-                                            `}
-                                        />
+                                    {/* OUTER CIRCLE */}
+                                    <div className="
+                                        w-[100px] h-[100px] sm:w-[120px] sm:h-[120px]
+                                        rounded-full
+                                        bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300
+                                        shadow-md
+                                        flex items-center justify-center
+                                        transition-all duration-300
+                                        group-hover:scale-110 group-hover:shadow-xl
+                                    ">
+
+                                        {/* INNER CIRCLE */}
+                                        <div className="w-[70%] h-[70%] bg-white rounded-full flex items-center justify-center p-2 shadow-inner">
+
+                                            <img
+                                                src={metro.logo}
+                                                alt={metro.title}
+                                                className={`
+                                                    max-w-full max-h-full object-contain
+                                                    ${metro.slug === "mumbai-metro" ? "scale-90" : ""}
+                                                    ${metro.slug === "patna-metro" ? "scale-95" : ""}
+                                                `}
+                                            />
+
+                                        </div>
 
                                     </div>
 
+                                    {/* TITLE */}
+                                    <p className="mt-4 text-sm sm:text-base text-center font-semibold text-black">
+                                        {metro.title}
+                                    </p>
+
                                 </div>
+                            </Link>
+                        ))}
 
-                                <p className="mt-3 text-xs text-white text-center font-medium">
-                                    {metro.title}
-                                </p>
-
-                            </div>
-                        </Link>
-                    ))}
+                    </div>
 
                 </div>
-
             </div>
         );
     }
 
-    // ✅ DETAIL VIEW
+    // ✅ DETAIL VIEW (UNCHANGED)
     const metro = metroData.find((m) => m.slug === slug);
 
     if (!metro) {
@@ -117,15 +142,12 @@ export default function MetroData() {
     return (
         <div className="bg-black min-h-screen pt-24 flex flex-col items-center px-4 pb-10">
 
-            {/* BACK */}
             <Link to="/metro" className="text-white mb-4 text-sm underline">
                 ← Back
             </Link>
 
-            {/* CARD */}
             <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden">
 
-                {/* MAP */}
                 <div
                     className="w-full h-[60vh] sm:h-[70vh] bg-gray-200 cursor-pointer relative group"
                     onClick={() => setIsFullScreen(true)}
@@ -145,26 +167,14 @@ export default function MetroData() {
                         />
                     )}
 
-                    {/* HOVER TEXT */}
-                    <div className="
-                        absolute inset-0
-                        bg-black/0 group-hover:bg-black/30
-                        flex items-center justify-center
-                        transition
-                    ">
-                        <span className="
-                            text-white text-sm sm:text-lg font-semibold
-                            opacity-0 group-hover:opacity-100
-                            bg-black/60 px-4 py-2 rounded-lg
-                            transition
-                        ">
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 flex items-center justify-center transition">
+                        <span className="text-white text-sm sm:text-lg font-semibold opacity-0 group-hover:opacity-100 bg-black/60 px-4 py-2 rounded-lg transition">
                             View Fullscreen
                         </span>
                     </div>
 
                 </div>
 
-                {/* TITLE */}
                 <div className="p-4 text-center bg-gray-100">
                     <h2 className="text-lg sm:text-xl font-semibold text-gray-800">
                         {metro.title} Route Map
@@ -176,15 +186,10 @@ export default function MetroData() {
 
             </div>
 
-            {/* ✅ FULLSCREEN */}
+            {/* FULLSCREEN */}
             {isFullScreen && (
-                <div className="
-                    fixed inset-0 z-50
-                    bg-black/90 backdrop-blur-sm
-                    flex flex-col
-                ">
+                <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex flex-col">
 
-                    {/* HEADER */}
                     <div className="flex justify-between items-center p-4 text-white border-b border-gray-700">
                         <h2 className="text-lg font-semibold">{metro.title}</h2>
 
@@ -196,7 +201,6 @@ export default function MetroData() {
                         </button>
                     </div>
 
-                    {/* FULL MAP */}
                     <div className="flex-1">
                         {metro.type === "pdf" ? (
                             <iframe
