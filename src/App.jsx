@@ -38,6 +38,8 @@ import Tunghnath from "./Component/tunghnath";
 import RedFort from "./Component/RedFort";
 import Safdarjunga from "./Component/Safdarjunga";
 import PhotoStory1 from "./Component/PhotoStory1";
+import Sarojini from "./Component/Sarojini";
+import Lajpat from "./Component/Lajpat";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -138,8 +140,16 @@ function App() {
                 element={<Mahabhodi />}
               />
               <Route
+                path="/lajpat-nagar-market-delhi-travel-guide"
+                element={<Lajpat />}
+              />
+              <Route
                 path="/safdarjung-tomb-delhi-travel-guide"
                 element={<Safdarjunga/>}
+              />
+              <Route
+                path="/sarojini-nagar-market-delhi-travel-guide"
+                element={<Sarojini/>}
               />
               
               <Route
