@@ -1,10 +1,10 @@
 import React from "react";
 
-const SectionImage = ({ src, source = "Wikipedia / Canva" }) => (
+const SectionImage = ({ src, source = "Times of India / Pinterest" }) => (
   <div className="my-6">
     <img
       src={src}
-      alt="lajpat nagar market"
+      alt="sarojini nagar market"
       className="w-full h-[420px] object-cover rounded-lg"
     />
     <p className="text-sm text-blue-500 mt-2">
@@ -13,194 +13,367 @@ const SectionImage = ({ src, source = "Wikipedia / Canva" }) => (
   </div>
 );
 
-const Lajpat = () => {
+const Sarojini = () => {
   return (
     <div className="bg-gray-50 py-10 px-4">
       <div className="max-w-4xl mx-auto bg-white p-6 md:p-10 shadow rounded-lg mt-12">
 
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Lajpat Nagar Market Guide: Shopping, Food, Tips & How to Reach
+          Sarojini Nagar Market, Delhi: The Ultimate Budget Shopping Guide
         </h1>
 
         <p className="text-gray-600 mb-2">
-          <span className="font-semibold">Published On: 02 May, 2026</span>
+          <span className="font-semibold">Published On: 1 May, 2026</span>
         </p>
 
         <p className="text-gray-600 mb-6">
           By <span className="font-semibold">Kriti Singh</span>
         </p>
 
-        <SectionImage src="/Image/lajpat-nagar-market-delhi-01.png" />
+        <SectionImage src="/Image/sarojini-nagar-market-delhi-01.png" />
 
         <p className="text-gray-700 mb-6">
-          There are some places in Delhi that you plan to visit and then there are markets like Lajpat Nagar Market that you simply walk in and get pulled into.
+          A ₹200 outfit that looks like ₹2000? It might sound fake but it’s a normal day at Sarojini Nagar Market.
+          One of the busiest and most loved street markets in Delhi, it’s a paradise for budget shoppers.
+          With hundreds of stalls lined across narrow lanes, the market attracts everyone—from college students
+          to fashion influencers—looking for trendy outfits at unbelievably low prices.
         </p>
 
         <p className="text-gray-700 mb-6">
-          Located in South Delhi, this market has grown from a residential shopping hub into one of the city’s busiest retail destinations. It’s especially known for ethnic wear, fabrics, accessories and everyday fashion, making it a go-to spot for everything from wedding shopping to quick wardrobe updates.
-        </p>
-
-        <p className="text-gray-700 mb-6">
-          The moment you step in, the pace changes. Narrow lanes packed with shops, vendors calling out deals, racks of clothes spilling onto the streets - it’s busy, loud and constantly moving. Bargaining is part of the process, and so is browsing through more than you planned.
-        </p>
-
-        <p className="text-gray-700 mb-6">
-          What makes Lajpat Nagar Market stand out is the mix. You’ll find traditional suits and dupattas alongside trendy streetwear and street food stalls next to branded stores. It’s not just a market for one kind of shopper - it works for everyone.
+          But Sarojini Nagar isn’t just about cheap shopping. It’s about the thrill of finding hidden gems, 
+          mastering the art of bargaining and walking out with bags full of fashion without emptying your wallet. 
+          If you’re planning a visit, this guide covers everything you need.
         </p>
 
         {/* HISTORY */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">
-          History of Lajpat Nagar Market: From Refugee Colony to Shopping Hub
-        </h2>
-
-        <SectionImage src="/Image/lajpat-nagar-market-delhi-02.png" />
+        <h2 className="text-2xl font-bold mt-10 mb-4">History & Background</h2>
+        <SectionImage src="/Image/sarojini-nagar-market-delhi-02.png" />
 
         <p className="text-gray-700 mb-6">
-          Lajpat Nagar was established in the late 1940s and early 1950s after independence as a resettlement colony for refugees following the Partition of 1947.
+          Sarojini Nagar was developed in the early 1950s as a residential colony for central government employees in New Delhi, 
+          as part of post-independence urban planning. It was named after Sarojini Naidu, a prominent freedom fighter and poet.
+
         </p>
 
         <p className="text-gray-700 mb-6">
-          The market evolved organically with small shops, vendors and street stalls expanding over time as demand increased.
+         The local market was originally created to serve the daily needs of residents, 
+         offering basic goods and services. Over time, due to its central location and growing connectivity,
+          the market expanded and began attracting a wider range of shoppers.
+
         </p>
 
         <p className="text-gray-700 mb-6">
-          Its identity was shaped by Punjabi refugee culture, visible in ethnic wear, fabrics and wedding shopping essentials.
+          Its transformation into a major shopping hub happened gradually, 
+          especially as traders started selling export surplus and overstock garments,
+           products originally made for brands but available at lower prices due to excess production or minor defects. 
+           This made trendy clothing accessible at affordable rates.
         </p>
-
         <p className="text-gray-700 mb-6">
-          By the 1980s–90s, it became a major retail hub attracting shoppers from across Delhi.
+          By the late 20th century, Sarojini Nagar had become widely known as a budget shopping destination, 
+          particularly popular among students, young professionals and bargain hunters. 
+          Today, it remains one of Delhi’s busiest street markets, known for its constantly changing stock,
+           affordable fashion and lively atmosphere.
         </p>
 
-        {/* SHOPPING */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">
-          What to Buy in Lajpat Nagar Market (Complete Shopping Guide)
-        </h2>
+        {/* WHY FAMOUS */}
+        {/* WHY FAMOUS */}
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  What Makes Sarojini Nagar Market So Famous?
+</h2>
 
-        <SectionImage src="/Image/lajpat-nagar-market-delhi-03.png" />
+<SectionImage 
+  src="/Image/sarojini-nagar-market-delhi-03.png" 
+  source="India Today" 
+/>
 
-        <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
-          <li><b>Ethnic Wear:</b> Kurtis, suit sets, sarees, lehengas</li>
-          <li><b>Western Wear:</b> Dresses, jeans, co-ords</li>
-          <li><b>Footwear:</b> Juttis, kolhapuris, flats</li>
-          <li><b>Bags & Accessories:</b> Slings, totes, belts</li>
-          <li><b>Jewellery:</b> Oxidized, festive, minimal</li>
-          <li><b>Fabrics:</b> Custom stitching options</li>
-          <li><b>Home Decor:</b> Cushions, curtains</li>
-          <li><b>Festive Items:</b> Lights, diyas</li>
-        </ul>
+{/* Ultra-Low Prices */}
+<h3 className="text-xl font-semibold mt-6 mb-2">Ultra-Low Prices</h3>
+<p className="text-gray-700 mb-6">
+  Sarojini Nagar is known for its unbeatable prices, with tops available for around ₹50–₹150,
+  dresses ranging between ₹200–₹500 and winter wear starting from about ₹500.
+  With such affordable options across categories, you can easily build an entire wardrobe
+  here without spending much.
+</p>
 
-        {/* SPECIAL */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">
-          What Makes This Place Special?
-        </h2>
+{/* Fast Fashion */}
+<h3 className="text-xl font-semibold mt-6 mb-2">Fast & Trendy Fashion</h3>
+<p className="text-gray-700 mb-6">
+  The market is quick to pick up trends, often reflecting global styles within days or weeks.
+  That’s why it attracts a wide range of shoppers—from college students to working professionals
+  and fashion lovers looking for trendy styles at affordable prices.
+</p>
 
-        <SectionImage src="/Image/lajpat-nagar-market-delhi-04.png" />
+{/* Export Surplus */}
+<h3 className="text-xl font-semibold mt-6 mb-2">Export Surplus Finds</h3>
+<p className="text-gray-700 mb-6">
+  Many items here come from export surplus or factory rejects. You might spot pieces
+  inspired by brands like Zara, H&M or Forever 21 at a fraction of their original price.
+</p>
 
-        <p className="text-gray-700 mb-6">
-          The market offers a balance of fixed-price shops and bargaining stalls with affordable pricing:
-        </p>
-
-        <ul className="list-disc pl-6 mb-6 text-gray-700">
-          <li>Tops: ₹200–₹500</li>
-          <li>Kurtis: ₹300–₹1000</li>
-          <li>Juttis: ₹300–₹800</li>
-          <li>Accessories: ₹50–₹200</li>
-        </ul>
-
+{/* Bargaining */}
+<h3 className="text-xl font-semibold mt-6 mb-2">Bargaining Culture</h3>
+<p className="text-gray-700 mb-6">
+  Prices are rarely fixed and bargaining is part of the experience.
+  Knowing how to negotiate can make a big difference in what you end up paying.
+</p>
         {/* FOOD */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">
-          Best Street Food in Lajpat Nagar Market You Must Try
-        </h2>
+        {/* EXPERIENCE */}
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  What to Expect When You Visit Sarojini Nagar Market
+</h2>
 
-        <SectionImage src="/Image/lajpat-nagar-market-delhi-05.png" />
+<SectionImage 
+  src="/Image/sarojini-nagar-market-delhi-04.png" 
+  source="India TV News" 
+/>
 
-        <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
-          <li>Momos – Dolma Aunty & Vicky’s</li>
-          <li>Chole Bhature – Bikanervala</li>
-          <li>Ram Ladoo</li>
-          <li>Kebabs & Rolls</li>
-          <li>Parathas – Moolchand</li>
-          <li>Chaat</li>
-          <li>Kulfi & Falooda</li>
-          <li>Juices & Shakes</li>
-        </ul>
+{/* Endless Shopping */}
+<h3 className="text-xl font-semibold mt-6 mb-2">Endless Street Shopping</h3>
+<p className="text-gray-700 mb-6">
+  The market feels like a maze of narrow lanes lined with closely packed stalls.
+  From trendy clothes to everyday essentials, every corner offers something new,
+  making it easy to spend hours exploring. The variety keeps changing, so each
+  visit brings a different experience.
+</p>
 
-        {/* TIPS */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">
-          Smart Shopping Tips
-        </h2>
+{/* Accessories */}
+<h3 className="text-xl font-semibold mt-6 mb-2">Accessories & Footwear</h3>
+<p className="text-gray-700 mb-6">
+  Beyond clothing, you will find a wide range of accessories and footwear.
+  From oxidized jewellery and sunglasses to handbags, belts and sneakers,
+  there’s plenty to complete your look without spending much.
+</p>
 
-        <SectionImage src="/Image/lajpat-nagar-market-delhi-06.png" />
+{/* Treasure Hunt */}
+<h3 className="text-xl font-semibold mt-6 mb-2">Treasure Hunt Experience</h3>
+<p className="text-gray-700 mb-6">
+  Shopping here is less about picking and more about discovering.
+  The best pieces are often hidden among piles, so patience and a keen eye
+  can help you find great deals that others might miss.
+</p>
 
-        <ul className="list-disc pl-6 mb-6 text-gray-700 space-y-2">
-          <li>Start bargaining at 40–50%</li>
-          <li>Compare multiple shops</li>
-          <li>Check quality carefully</li>
-          <li>Carry cash + UPI</li>
-          <li>Visit weekdays</li>
-          <li>Stay comfortable</li>
-          <li>Keep belongings secure</li>
-        </ul>
+{/* Crowd */}
+<h3 className="text-xl font-semibold mt-6 mb-2">Crowd & Energy</h3>
+<p className="text-gray-700 mb-6">
+  Sarojini Nagar is almost always busy, especially on weekends.
+  Expect crowds, noise and constant movement, but that lively,
+  slightly chaotic energy is what makes the experience fun and memorable.
+</p>
+
+{/* FOOD OPTIONS */}
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  Food Options in Sarojini Nagar (Must Try)
+</h2>
+
+<SectionImage 
+  src="/Image/sarojini-nagar-market-delhi-05.png" 
+  source="Pragya Gautam" 
+/>
+
+<p className="text-gray-700 mb-6">
+  A shopping trip here is incomplete without a quick food break. The market
+  offers plenty of options to keep you going while you explore.
+</p>
+
+<ul className="list-disc pl-6 mb-6 text-gray-700">
+  <li><b>Momo & Spring Roll</b> – Affordable, quick and available everywhere</li>
+  <li><b>Chaat & Golgappa</b> – Tangy, refreshing and perfect for a mid-shopping snack</li>
+  <li><b>Cold Coffee & Shakes</b> – Great for a quick break during long shopping hours</li>
+  <li><b>Street Chinese & Rolls</b> – Filling and budget-friendly</li>
+</ul>
+
+<p className="text-gray-700 mb-6">
+  Small cafes and street stalls are scattered across the market, giving you
+  plenty of places to pause, recharge and then head back into the crowd.
+</p>
+
+<p className="text-green-600 font-medium mb-6">
+  Pro Tip: Go for stalls with a steady crowd — they usually serve fresher food
+  and have better turnover.
+</p>
+
+        {/* TIMINGS */}
+        {/* TIMINGS */}
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  Sarojini Nagar Market Timings & Best Time to Visit
+</h2>
+
+<SectionImage 
+  src="/Image/sarojini-nagar-market-delhi-06.png" 
+  source="Times of India" 
+/>
+
+<ul className="list-disc pl-6 mb-6 text-gray-700">
+  <li><b>Closed on:</b> Monday</li>
+  <li><b>Open on:</b> Tuesday to Sunday</li>
+  <li><b>Timings:</b> 11:00 AM – 8:00 PM</li>
+</ul>
+
+<h3 className="text-xl font-semibold mt-6 mb-2">
+  Best Time to Visit
+</h3>
+
+<ul className="list-disc pl-6 mb-6 text-gray-700">
+  <li><b>Morning (11 AM – 2 PM):</b> Less crowded, better deals</li>
+  <li><b>Winter months (October to February):</b> Comfortable weather</li>
+  <li><b>Avoid weekends:</b> If you prefer a more relaxed experience</li>
+</ul>
 
         {/* HOW TO REACH */}
-        <h2 className="text-2xl font-bold mt-10 mb-4">
-          How to Reach Lajpat Nagar Market
-        </h2>
+        {/* HOW TO REACH */}
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  How to Reach Sarojini Nagar Market
+</h2>
 
-        <SectionImage src="/Image/lajpat-nagar-market-delhi-07.png" source="DMRC" />
+<SectionImage 
+  src="/Image/sarojini-nagar-market-delhi-07.png" 
+  source="DMRC" 
+/>
 
-        <ul className="list-disc pl-6 mb-6 text-gray-700">
-          <li>Metro: Lajpat Nagar (Violet & Pink Line)</li>
-          <li>Bus: DTC buses available</li>
-          <li>Road: Autos & cabs (limited parking)</li>
-        </ul>
+<ul className="list-disc pl-6 mb-6 text-gray-700">
+  <li><b>By Metro:</b> Sarojini Nagar Metro Station (Pink Line)</li>
+  <li><b>By Bus:</b> Sarojini Nagar Bus Depot / Sarojini Nagar Market Stop</li>
+  <li><b>By Road:</b> Autos and app-based cabs are easily available</li>
+</ul>
 
+{/* PRO TIPS */}
+<h2 className="text-2xl font-bold mt-10 mb-4">
+  Pro Shopping Tips (Don’t Skip This)
+</h2>
+
+<ul className="list-disc pl-6 mb-6 text-gray-700">
+  <li><b>Start bargaining smartly:</b> Begin at around 40–50% of the quoted price and negotiate calmly</li>
+  <li><b>Check items carefully:</b> Look for stains, loose threads, broken zips or size issues</li>
+  <li><b>Carry cash (and change):</b> Helps in smoother bargaining (UPI not everywhere)</li>
+  <li><b>Bring a tote bag:</b> Avoid carrying multiple plastic bags</li>
+  <li><b>Visit early or weekdays:</b> Fewer crowds and better shopping experience</li>
+  <li><b>Stay alert in crowds:</b> Keep your belongings secure</li>
+  <li><b>Don’t rush:</b> Explore multiple lanes before buying</li>
+</ul>
         {/* NEARBY */}
-        <h2 className="text-2xl font-bold mt-10 mb-6">
-          Nearby Places to Visit
-        </h2>
+        {/* NEARBY PLACES */}
+<h2 className="text-2xl font-bold mt-10 mb-6">
+  Nearby Places to Explore
+</h2>
+<SectionImage 
+  src="/Image/sarojini-nagar-market-delhi-08.png" 
+  source="Canva" 
+/>
+<div className="grid md:grid-cols-2 gap-4 mb-10">
 
-        <SectionImage src="/Image/lajpat-nagar-market-delhi-08.png" />
+  <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
+    <h3 className="font-semibold text-lg">🛍️ Dilli Haat INA</h3>
+    <p className="text-gray-700 text-sm">
+      Handicrafts and food from across India
+    </p>
+  </div>
 
-        <ul className="list-disc pl-6 mb-6 text-gray-700">
-          <li>Lotus Temple</li>
-          <li>ISKCON Temple Delhi</li>
-          <li>Nehru Place</li>
-          <li>Humayun’s Tomb</li>
-        </ul>
+  <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
+    <h3 className="font-semibold text-lg">🏛️ Safdarjung Tomb</h3>
+    <p className="text-gray-700 text-sm">
+      A peaceful historical escape
+    </p>
+  </div>
 
-        {/* CONCLUSION */}
-        <div className="bg-gradient-to-r from-pink-50 to-orange-50 p-6 rounded-lg shadow-sm">
-          <p className="text-gray-700 mb-4">
-            Lajpat Nagar Market is not the kind of place you visit once and forget. You walk in thinking you’ll “just look around” but end up staying longer.
-          </p>
+  <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
+    <h3 className="font-semibold text-lg">🌿 Chanakyapuri</h3>
+    <p className="text-gray-700 text-sm">
+      Clean streets, cafes and greenery
+    </p>
+  </div>
 
-          <p className="text-gray-800 font-medium">
-            It’s not just about shopping — it’s about the experience.
-          </p>
-        </div>
+  <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
+    <h3 className="font-semibold text-lg">🛕 ISKCON Temple</h3>
+    <p className="text-gray-700 text-sm">
+      A peaceful spiritual spot
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-4 rounded-lg shadow-sm md:col-span-2">
+    <h3 className="font-semibold text-lg">🌸 Lotus Temple</h3>
+    <p className="text-gray-700 text-sm">
+      A modern architectural marvel known for its serene atmosphere
+    </p>
+  </div>
+
+</div>
+
+<p className="text-gray-700 mb-10">
+  You can also explore <span className="font-semibold">Connaught Place</span> 
+  for a more premium shopping and dining experience.
+</p>
+
+{/* CONCLUSION */}
+<div className="bg-gradient-to-r from-pink-50 to-orange-50 p-6 rounded-lg shadow-sm">
+  <h2 className="text-2xl font-bold mb-4">
+    Final Thoughts
+  </h2>
+
+  <p className="text-gray-700 mb-4">
+    If you love fashion but don’t want to spend a fortune, 
+    <span className="font-semibold"> Sarojini Nagar Market </span> is unbeatable.
+    It’s crowded, chaotic and sometimes overwhelming — but that’s exactly 
+    what makes it exciting.
+  </p>
+
+  <p className="text-gray-700 mb-4">
+    From scoring unbelievable deals to discovering unique fashion pieces, 
+    every visit feels rewarding. Whether you’re visiting for the first time 
+    or coming back again, Sarojini Nagar always has something new to offer.
+  </p>
+
+  <p className="text-gray-800 font-medium">
+    So wear comfortable shoes, bring your bargaining skills and get ready 
+    for one of the most exciting shopping experiences in Delhi — you’ll leave 
+    with full bags and zero regrets.
+  </p>
+</div>
 
         {/* FAQ */}
-        <h2 className="text-2xl font-bold mt-10 mb-6">
-          Frequently Asked Questions (FAQs)
-        </h2>
+       {/* FAQ */}
+<h2 className="text-2xl font-bold mt-10 mb-6">
+  Frequently Asked Questions (FAQs)  about Sarojini Nagar Market
 
-        <div className="space-y-4">
-          <div className="p-4 bg-gray-50">
-            <h3 className="font-semibold">What is it famous for?</h3>
-            <p>Affordable fashion & street shopping</p>
-          </div>
+</h2>
 
-          <div className="p-4 bg-gray-50">
-            <h3 className="font-semibold">Timings?</h3>
-            <p>10:30 AM – 9:00 PM (Closed Monday)</p>
-          </div>
+<div className="space-y-4">
 
-          <div className="p-4 bg-gray-50">
-            <h3 className="font-semibold">Nearest metro?</h3>
-            <p>Lajpat Nagar Metro Station</p>
-          </div>
-        </div>
+  <div className=" p-4 bg-gray-50">
+    <h3 className="font-semibold">Q1. Why is Sarojini Nagar Market so cheap?</h3>
+    <p className="text-gray-700 mt-2">
+      Because most items are export surplus or factory rejects with minor defects.
+    </p>
+  </div>
+
+  <div className=" p-4 bg-gray-50">
+    <h3 className="font-semibold">Q2. What is the nearest metro station?</h3>
+    <p className="text-gray-700 mt-2">
+      Sarojini Nagar Metro Station on the Pink Line.
+    </p>
+  </div>
+
+  <div className=" p-4 bg-gray-50">
+    <h3 className="font-semibold">Q3. Is Sarojini Nagar worth visiting?</h3>
+    <p className="text-gray-700 mt-2">
+      Yes, especially for budget-friendly fashion and trendy outfits.
+    </p>
+  </div>
+
+  <div className=" p-4 bg-gray-50">
+    <h3 className="font-semibold">Q4. Can we bargain here?</h3>
+    <p className="text-gray-700 mt-2">
+      Yes, bargaining is expected and part of the culture.
+    </p>
+  </div>
+
+  <div className=" p-4 bg-gray-50">
+    <h3 className="font-semibold">Q5. How much time is enough?</h3>
+    <p className="text-gray-700 mt-2">
+      Around 2–4 hours for a complete experience.
+    </p>
+  </div>
+
+</div>
 
         {/* AUTHOR */}
         <div className="mt-10">
@@ -214,7 +387,13 @@ const Lajpat = () => {
             />
 
             <p className="text-gray-800 leading-relaxed">
-              Kriti Singh writes with honesty and clarity, capturing everyday life between rooted culture and city pace.
+              Kriti Singh began writing out of curiosity but it soon became her way of observing and making sense of the world
+              around her. Originally from Bihar and now living in Delhi for her studies, 
+              her perspective is shaped by both, where rooted culture meets the fast pace of city life. 
+              She finds stories in everyday spaces, from crowded streets to familiar food corners, not to 
+              romanticize them but to understand and capture them as they are. Her writing reflects this in-between space,
+               personal yet grounded, thoughtful yet unfiltered. She doesn’t claim expertise but writes with honesty, 
+               clarity and a sharp eye for detail.
             </p>
           </div>
         </div>
@@ -224,4 +403,4 @@ const Lajpat = () => {
   );
 };
 
-export default Lajpat;
+export default Sarojini;
