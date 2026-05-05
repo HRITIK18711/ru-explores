@@ -228,7 +228,7 @@ const storiesData = {
     {image: "/Image/gawilgad-fort-amravati-maharashtra-08.jpg"},
   ],
 
-  "nawegaon-nagzira-tiger-researve-maharashtra": [
+  "nawegaon-nagzira-tiger-reserve-maharashtra": [
     {image: "/Image/nawegaon-nagzira-tiger-researve-maharashtra-01.jpg"},
     {image: "/Image/nawegaon-nagzira-tiger-researve-maharashtra-02.jpg"},
     {image: "/Image/nawegaon-nagzira-tiger-researve-maharashtra-03.jpg"},
