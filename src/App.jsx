@@ -41,6 +41,11 @@ import PhotoStory1 from "./Component/PhotoStory1";
 import Sarojini from "./Component/Sarojini";
 import Lajpat from "./Component/Lajpat";
 import JantarMantar from "./Component/Jantarmantar";
+import Kedarkantha from "./Component/Kedarkantha";
+import Hanumanmandir from "./Component/Hanumanmandir";
+import Mehraulipark from "./Component/Mehraulipark";
+import Palikabazaar from "./Component/Palikabazaar";
+import Tughlaqabadfort from "./Component/Tughlaqabadfort";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -129,6 +134,26 @@ function App() {
               <Route path="/kedar" element={<Kedar />} />
               <Route path="/metro" element={<MetroData />} />
 
+              <Route
+                path="/kedarkantha-trek-uttarakhand-travel-guide"
+                element={<Kedarkantha/>}
+              />
+              <Route
+                path="/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide"
+                element={<Hanumanmandir />}
+              />
+              <Route
+                path="/palika-bazaar-connaught-place-new-delhi-travel-guide"
+                element={<Palikabazaar/>}
+              />
+              <Route
+                path="/tughlaqabad-fort-delhi-travel-guide"
+                element={<Tughlaqabadfort />}
+              />
+              <Route
+                path="/mehrauli-archaeological-park-delhi-travel-guide"
+                element={<Mehraulipark />}
+              />
               {/* IMPORTANT */}
               <Route
                 path="/jama-masjid-delhi-travel-guide"

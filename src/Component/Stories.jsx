@@ -170,16 +170,16 @@ const storiesData = {
   ],
 
   "kedarkantha-trek-uttarakhand": [
-    { image: "/Image/kedarkantha-trek-uttarakhand-01.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-02.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-03.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-04.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-05.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-06.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-07.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-08.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-09.mp4" },
-    { image: "/Image/kedarkantha-trek-uttarakhand-10.mp4" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-01.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-02.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-03.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-04.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-05.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-06.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-07.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-08.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-09.jpg" },
+    { image: "/Image/kedarkantha-trek-uttarakhand-10.jpg" },
   ],
 
   "the-great-buddha-statue-bodh-gaya-bihar": [

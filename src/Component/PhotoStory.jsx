@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  { slug:"kedarkantha-trek-uttarakhand-travel-guide",title:"Kedarkantha Trek Uttarakhand – Best Time, Itinerary & Complete Snow Trek Guide",image:"/Image/Kedarkantha-trek-uttarakhand-travel-guide-01.jpg"},
+  { slug:"pracheen-hanuman-mandir-connaught-place-delhi-travel-guide",title:"",image:"/Image/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide-01.jpg"},
+  { slug:"palika-bazaar-connaught-place-new-delhi-travel-guide",title:"",image:"/Image/palika-bazaar-connaught-place-new-delhi-travel-guide-01.jpg"},
+  { slug:"tughlaqabad-fort-delhi-travel-guide",title:"",image:"/Image/tughlaqabad-fort-delhi-travel-guide-01.jpg"},
+  { slug:"mehrauli-archaeological-park-delhi-travel-guide",title:"",image:"/Image/mehrauli-archaeological-park-delhi-travel-guide-01.jpg"},
   { slug: "jantar-mantar-delhi-travel-guide", title: "Jantar Mantar Delhi - Complete Guide, History, Timings & Things to Do", image: "/Image/jantar-mantar-delhi-travel-guide-01.jpg" },
   { slug: "lajpat-nagar-market-delhi-travel-guide", title: "Lajpat Nagar Market Guide: Shopping, Food, Tips & How to Reach", image: "/Image/lajpat-nagar-market-delhi-01.png" },
   { slug: "sarojini-nagar-market-delhi-travel-guide", title: "Sarojini Nagar Market, Delhi: The Ultimate Budget Shopping Guide", image: "/Image/sarojini-nagar-market-delhi-01.png" },
