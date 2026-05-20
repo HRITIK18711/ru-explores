@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const trending_stories = [
   { slug:"kedarkantha-trek-uttarakhand-travel-guide",title:"Kedarkantha Trek Uttarakhand – Best Time, Itinerary & Complete Snow Trek Guide",image:"/Image/Kedarkantha-trek-uttarakhand-travel-guide-01.jpg"},
-  { slug:"pracheen-hanuman-mandir-connaught-place-delhi-travel-guide",title:"",image:"/Image/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide-01.jpg"},
-  { slug:"palika-bazaar-connaught-place-new-delhi-travel-guide",title:"",image:"/Image/palika-bazaar-connaught-place-new-delhi-travel-guide-01.jpg"},
+  { slug:"pracheen-hanuman-mandir-connaught-place-delhi-travel-guide",title:"Pracheen Hanuman Mandir Delhi – History, Timings & the Soul of Connaught Place",image:"/Image/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide-01.jpg"},
+  { slug:"palika-bazaar-connaught-place-new-delhi-travel-guide",title:"Palika Bazaar Delhi – Underground Shopping, Bargaining & the Chaos of Connaught Place",image:"/Image/palika-bazaar-connaught-place-new-delhi-travel-guide-01.jpg"},
   { slug:"tughlaqabad-fort-delhi-travel-guide",title:"",image:"/Image/tughlaqabad-fort-delhi-travel-guide-01.jpg"},
   { slug:"mehrauli-archaeological-park-delhi-travel-guide",title:"",image:"/Image/mehrauli-archaeological-park-delhi-travel-guide-01.jpg"},
   { slug: "jantar-mantar-delhi-travel-guide", title: "Jantar Mantar Delhi - Complete Guide, History, Timings & Things to Do", image: "/Image/jantar-mantar-delhi-travel-guide-01.jpg" },

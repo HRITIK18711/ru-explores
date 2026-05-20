@@ -41,7 +41,7 @@ import PhotoStory1 from "./Component/PhotoStory1";
 import Sarojini from "./Component/Sarojini";
 import Lajpat from "./Component/Lajpat";
 import JantarMantar from "./Component/Jantarmantar";
-//import Kedarkantha from "./Component/Kedarkantha";
+import Kedarkantha from "./Component/Kedarkantha";
 import Hanumanmandir from "./Component/Hanumanmandir";
 import Mehraulipark from "./Component/Mehraulipark";
 import Palikabazaar from "./Component/Palikabazaar";
@@ -134,10 +134,10 @@ function App() {
               <Route path="/kedar" element={<Kedar />} />
               <Route path="/metro" element={<MetroData />} />
 
-              {/* <Route
+              <Route
                 path="/kedarkantha-trek-uttarakhand-travel-guide"
                 element={<Kedarkantha/>}
-              /> */}
+              />
               <Route
                 path="/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide"
                 element={<Hanumanmandir />}
