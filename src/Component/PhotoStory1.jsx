@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  { slug:"kedarkantha-trek-uttarakhand-travel-guide",title:"Kedarkantha Trek Uttarakhand – Best Time, Itinerary & Complete Snow Trek Guide",image:"/Image/Kedarkantha-trek-uttarakhand-travel-guide-01.jpg"},
+  { slug:"pracheen-hanuman-mandir-connaught-place-delhi-travel-guide",title:"Pracheen Hanuman Mandir Delhi – History, Timings & the Soul of Connaught Place",image:"/Image/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide-01.jpg"},
+  { slug:"palika-bazaar-connaught-place-new-delhi-travel-guide",title:"Palika Bazaar Delhi – Underground Shopping, Bargaining & the Chaos of Connaught Place",image:"/Image/palika-bazaar-connaught-place-new-delhi-travel-guide-01.jpg"},
+  { slug:"tughlaqabad-fort-delhi-travel-guide",title:"Tughlaqabad Fort Delhi – History, Ruins, Mystery & the Story of a Forgotten City",image:"/Image/tughlaqabad-fort-delhi-travel-guide-01.jpg"},
+  { slug:"mehrauli-archaeological-park-delhi-travel-guide",title:"Mehrauli Archaeological Park Delhi: History, Monuments, Timings, Entry Fee The Park That Ate a Thousand Years of History",image:"/Image/mehrauli-archaeological-park-delhi-travel-guide-01.jpg"},
   { slug: "jantar-mantar-delhi-travel-guide", title: "Jantar Mantar Delhi - Complete Guide, History, Timings & Things to Do", image: "/Image/jantar-mantar-delhi-travel-guide-01.jpg" },
   { slug: "lajpat-nagar-market-delhi-travel-guide", title: "Lajpat Nagar Market Guide: Shopping, Food, Tips & How to Reach", image: "/Image/lajpat-nagar-market-delhi-01.png" },
   { slug: "sarojini-nagar-market-delhi-travel-guide", title: "Sarojini Nagar Market, Delhi: The Ultimate Budget Shopping Guide", image: "/Image/sarojini-nagar-market-delhi-01.png" },
@@ -18,7 +23,6 @@ const trending_stories = [
   { slug: "india-gate-delhi-travel-guide", title: "India Gate Delhi Travel Guide: History, Timings, Best Time to Visit & How to Reach", image: "/Image/india-gate-delhi-01.png" },
   { slug: "jama-masjid-delhi-travel-guide", title: "Jama Masjid Delhi Travel Guide: Timings, Entry Fee, History, How to Reach & Nearby Places", image: "/Image/Jama-Masjid-Delhi.jpg" },
   { slug: "mahabodhi-temple-bihar-travel-guide", title: "Mahabodhi Temple, Bodh Gaya Bihar: The Sacred Place Where Lord Buddha Found Enlightenment", image: "/Image/mahabhodi-temple-01.jpg" },
-
 ];
 
 export default function TrendingSidebar() {
