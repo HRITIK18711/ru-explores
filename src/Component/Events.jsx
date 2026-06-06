@@ -2,21 +2,21 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 
 const eventsData = [
-  {
-    slug: "javed-ali-spellbound-tour-noida",
-    title: "Javed Ali Spellbound Tour Noida",
-    image: "/Image/javed-ali-spellbound-tour-noida.jpg",
-  },
-  {
-    slug: "sanam-night-of-nostalgia-delhi",
-    title: "Sanam Night Of Nostalgia Delhi",
-    image: "/Image/sanam-night-of-nostalgia-delhi.jpg",
-  },
-  {
-    slug: "whipmantra-concert-gurugram",
-    title: "Whipmantra Concert Gurugram",
-    image: "/Image/whipmantra-concert-gurugram.jpg",
-  },
+  // {
+  //   slug: "javed-ali-spellbound-tour-noida",
+  //   title: "Javed Ali Spellbound Tour Noida",
+  //   image: "/Image/javed-ali-spellbound-tour-noida.jpg",
+  // },
+  // {
+  //   slug: "sanam-night-of-nostalgia-delhi",
+  //   title: "Sanam Night Of Nostalgia Delhi",
+  //   image: "/Image/sanam-night-of-nostalgia-delhi.jpg",
+  // },
+  // {
+  //   slug: "whipmantra-concert-gurugram",
+  //   title: "Whipmantra Concert Gurugram",
+  //   image: "/Image/whipmantra-concert-gurugram.jpg",
+  // },
 ];
 
 const Events = () => {
