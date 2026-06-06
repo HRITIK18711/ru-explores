@@ -147,7 +147,7 @@ export default function LatestNews() {
             Upcoming Events
           </h2>
 
-          <div className="space-y-4 overflow-y-auto pr-1 flex-1">
+          {/* <div className="space-y-4 overflow-y-auto pr-1 flex-1">
             {Upcoming_events.map((news) => (
               <Link to={`/events/${news.slug}`} key={news.slug}>
                 <div className="flex gap-3 items-start hover:bg-gray-50 p-2 rounded cursor-pointer">
@@ -165,7 +165,7 @@ export default function LatestNews() {
                 </div>
               </Link>
             ))}
-          </div>
+          </div> */}
 
         </div>
 
