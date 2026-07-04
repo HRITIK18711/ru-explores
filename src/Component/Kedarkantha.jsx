@@ -476,160 +476,160 @@ const Kedarkantha = () => {
                 </p>
 
                 <h2 className="text-2xl font-bold mt-10 mb-6">
-  Frequently Asked Questions (FAQs) about Kedarkantha Trek
-</h2>
+                    Frequently Asked Questions (FAQs) about Kedarkantha Trek
+                </h2>
 
-<div className="space-y-4 text-gray-700">
+                <div className="space-y-4 text-gray-700">
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      1. Is Kedarkantha Trek suitable for beginners?
-    </p>
-    <p className="mt-2">
-      Yes, the Kedarkantha Trek is one of the best beginner-friendly treks in
-      India. The trail is well-defined, and the gradual ascent makes it
-      manageable for first-time trekkers with basic fitness.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            1. Is Kedarkantha Trek suitable for beginners?
+                        </p>
+                        <p className="mt-2">
+                            Yes, the Kedarkantha Trek is one of the best beginner-friendly treks in
+                            India. The trail is well-defined, and the gradual ascent makes it
+                            manageable for first-time trekkers with basic fitness.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      2. What is the best time to visit Kedarkantha Trek?
-    </p>
-    <p className="mt-2">
-      The best time depends on your preference. Visit from December to February
-      for snow trekking and from March to April for pleasant weather and clear
-      views.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            2. What is the best time to visit Kedarkantha Trek?
+                        </p>
+                        <p className="mt-2">
+                            The best time depends on your preference. Visit from December to February
+                            for snow trekking and from March to April for pleasant weather and clear
+                            views.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      3. What is the total distance of Kedarkantha Trek?
-    </p>
-    <p className="mt-2">
-      The total trek distance is approximately 20 km, usually completed over
-      4 to 5 days.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            3. What is the total distance of Kedarkantha Trek?
+                        </p>
+                        <p className="mt-2">
+                            The total trek distance is approximately 20 km, usually completed over
+                            4 to 5 days.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      4. What is the height of Kedarkantha summit?
-    </p>
-    <p className="mt-2">
-      The Kedarkantha summit is located at an altitude of around
-      3,810 meters above sea level.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            4. What is the height of Kedarkantha summit?
+                        </p>
+                        <p className="mt-2">
+                            The Kedarkantha summit is located at an altitude of around
+                            3,810 meters above sea level.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      5. How difficult is the Kedarkantha Trek?
-    </p>
-    <p className="mt-2">
-      The trek is classified as easy to moderate. While it is
-      beginner-friendly, the summit climb can be slightly challenging,
-      especially in snow.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            5. How difficult is the Kedarkantha Trek?
+                        </p>
+                        <p className="mt-2">
+                            The trek is classified as easy to moderate. While it is
+                            beginner-friendly, the summit climb can be slightly challenging,
+                            especially in snow.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      6. Is Kedarkantha Trek safe?
-    </p>
-    <p className="mt-2">
-      Yes, Kedarkantha Trek is generally safe if you follow proper
-      precautions, carry the right gear, and trek with a guide or
-      experienced group.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            6. Is Kedarkantha Trek safe?
+                        </p>
+                        <p className="mt-2">
+                            Yes, Kedarkantha Trek is generally safe if you follow proper
+                            precautions, carry the right gear, and trek with a guide or
+                            experienced group.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      7. Do I need a guide for Kedarkantha Trek?
-    </p>
-    <p className="mt-2">
-      A guide is not mandatory for experienced trekkers, but it is
-      highly recommended, especially during winter when trails are
-      covered in snow.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            7. Do I need a guide for Kedarkantha Trek?
+                        </p>
+                        <p className="mt-2">
+                            A guide is not mandatory for experienced trekkers, but it is
+                            highly recommended, especially during winter when trails are
+                            covered in snow.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      8. What is special about Juda Ka Talab?
-    </p>
-    <p className="mt-2">
-      Juda Ka Talab is a beautiful high-altitude lake and one of the
-      main highlights of the trek. It freezes in winter and offers
-      stunning reflection views in other seasons.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            8. What is special about Juda Ka Talab?
+                        </p>
+                        <p className="mt-2">
+                            Juda Ka Talab is a beautiful high-altitude lake and one of the
+                            main highlights of the trek. It freezes in winter and offers
+                            stunning reflection views in other seasons.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      9. How cold does it get on Kedarkantha Trek?
-    </p>
-    <p className="mt-2">
-      In winter, temperatures can drop to -5°C to -10°C at night,
-      especially at higher camps.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            9. How cold does it get on Kedarkantha Trek?
+                        </p>
+                        <p className="mt-2">
+                            In winter, temperatures can drop to -5°C to -10°C at night,
+                            especially at higher camps.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      10. What should I carry for Kedarkantha Trek?
-    </p>
-    <p className="mt-2">
-      Carry warm clothes, waterproof trekking shoes, gloves,
-      sunglasses, backpack, water bottle, and essential medicines.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            10. What should I carry for Kedarkantha Trek?
+                        </p>
+                        <p className="mt-2">
+                            Carry warm clothes, waterproof trekking shoes, gloves,
+                            sunglasses, backpack, water bottle, and essential medicines.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      11. Can I do Kedarkantha Trek without a package?
-    </p>
-    <p className="mt-2">
-      Yes, you can do it independently if you have trekking experience
-      and proper planning. However, beginners should opt for a guided
-      package.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            11. Can I do Kedarkantha Trek without a package?
+                        </p>
+                        <p className="mt-2">
+                            Yes, you can do it independently if you have trekking experience
+                            and proper planning. However, beginners should opt for a guided
+                            package.
+                        </p>
+                    </div>
 
-  <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-    <p className="font-bold text-black">
-      12. How long does it take to complete Kedarkantha Trek?
-    </p>
-    <p className="mt-2">
-      The trek usually takes 4 to 5 days, including travel to and from
-      Sankri.
-    </p>
-  </div>
+                    <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
+                        <p className="font-bold text-black">
+                            12. How long does it take to complete Kedarkantha Trek?
+                        </p>
+                        <p className="mt-2">
+                            The trek usually takes 4 to 5 days, including travel to and from
+                            Sankri.
+                        </p>
+                    </div>
 
-</div>
+                </div>
 
                 <div className="mt-6 pt-8">
-        <h3 className="text-2xl font-semibold mb-6">About the Author</h3>
+                    <h3 className="text-2xl font-semibold mb-6">About the Author</h3>
 
-        <div className="flex flex-col md:flex-row items-start gap-6">
-          <img
-            src="/Image/rohit.jpeg"
-            alt="Rohit Upadhyay"
-            className="w-44 h-44 md:w-40 md:h-40 object-cover rounded-md"
-          />
+                    <div className="flex flex-col md:flex-row items-start gap-6">
+                        <img
+                            src="/Image/rohit.jpeg"
+                            alt="Rohit Upadhyay"
+                            className="w-44 h-44 md:w-40 md:h-40 object-cover rounded-md"
+                        />
 
-          <p className="text-gray-800 leading-relaxed text-justify text-lg">
-                    Hi, I’m Rohit, the explorer behind RU Explores. For me, travel is not just
-                    about reaching a destination but about understanding its culture, people,
-                    food and stories. I enjoy exploring places deeply, from mountain villages to
-                    local streets and sharing those experiences in a way that helps others travel
-                    with purpose. RU Explores is my attempt to turn travel into something more
-                    meaningful than just ticking locations off a list.          </p>
-        </div>
-      </div>
-                
+                        <p className="text-gray-800 leading-relaxed text-justify text-lg">
+                            Hi, I’m Rohit, the explorer behind RU Explores. For me, travel is not just
+                            about reaching a destination but about understanding its culture, people,
+                            food and stories. I enjoy exploring places deeply, from mountain villages to
+                            local streets and sharing those experiences in a way that helps others travel
+                            with purpose. RU Explores is my attempt to turn travel into something more
+                            meaningful than just ticking locations off a list.          </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     );
