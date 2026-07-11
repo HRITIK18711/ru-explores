@@ -2,6 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  { slug:"bara-imambara-lucknow-uttar-pradesh-travel-guide",title:"Bara Imambara, Lucknow: History, Bhool Bhulaiya, Timing, Entry Fee and Complete Travel Guide",image:"/Image/bara-imambara-lucknow-uttar-pradesh-travel-guide-01.jpg"},
+  { slug:"Janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide",title:" ",image:""},
+  { slug:"residency-lucknow-uttar-pradesh-travel-guide",title:" ",image:""},
+  { slug:"sikandar-bagh-lucknow-uttar-pradesh-travel-guide",title:" ",image:""},
+
+
+
+
+
+
   { slug:"kedarkantha-trek-uttarakhand-travel-guide",title:"Kedarkantha Trek Uttarakhand – Best Time, Itinerary & Complete Snow Trek Guide",image:"/Image/Kedarkantha-trek-uttarakhand-travel-guide-01.jpg"},
   { slug:"pracheen-hanuman-mandir-connaught-place-delhi-travel-guide",title:"Pracheen Hanuman Mandir Delhi – History, Timings & the Soul of Connaught Place",image:"/Image/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide-01.jpg"},
   { slug:"palika-bazaar-connaught-place-new-delhi-travel-guide",title:"Palika Bazaar Delhi – Underground Shopping, Bargaining & the Chaos of Connaught Place",image:"/Image/palika-bazaar-connaught-place-new-delhi-travel-guide-01.jpg"},

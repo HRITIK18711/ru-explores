@@ -46,6 +46,10 @@ import Hanumanmandir from "./Component/Hanumanmandir";
 import Mehraulipark from "./Component/Mehraulipark";
 import Palikabazaar from "./Component/Palikabazaar";
 import Tughlaqabadfort from "./Component/Tughlaqabadfort";
+import BaraImambara from "./Component/BaraImambara";
+import JaneshwarMishraPark from "./Component/JaneshwarMishraPark";
+import SikandarBagh from "./Component/SikandarBagh";
+import ResidencyLucknow from "./Component/ResidencyLucknow";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -230,6 +234,30 @@ function App() {
               <Route
                 path="/hazrat-nizamuddin-dargah-delhi-travel-guide"
                 element={<Nizamuddin />}
+              />
+
+
+              <Route
+                path="/Janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide"
+                element={<JaneshwarMishraPark />}
+              />
+
+
+              <Route
+                path="/residency-lucknow-uttar-pradesh-travel-guide"
+                element={<ResidencyLucknow />}
+              />
+
+
+              <Route
+                path="/bara-imambara-lucknow-uttar-pradesh-travel-guide"
+                element={<BaraImambara />}
+              />
+
+
+              <Route
+                path="/sikandar-bagh-lucknow-uttar-pradesh-travel-guide"
+                element={<SikandarBagh />}
               />
 
             </Routes>
