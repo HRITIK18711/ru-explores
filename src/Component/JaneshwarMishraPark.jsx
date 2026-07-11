@@ -26,7 +26,7 @@ const JaneshwarMishraPark = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-01.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-01.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -48,7 +48,7 @@ const JaneshwarMishraPark = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-02.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-02.jpg"
                     source="News18 Hindi"
                 />
 
@@ -62,7 +62,7 @@ const JaneshwarMishraPark = () => {
 
                 <h4 className="font-semibold text-black mb-1">The Giant Tricolour</h4>
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-03.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-03.jpg"
                     source="Jony Kumar Singh Vlogs"
                 />
                 <p className="mb-6 text-gray-700">
@@ -71,7 +71,7 @@ const JaneshwarMishraPark = () => {
 
                 <h4 className="font-semibold text-black mb-1">The MiG-21 and Vijayanta Tank</h4>
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-04.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-04.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-6 text-gray-700">
@@ -80,7 +80,7 @@ const JaneshwarMishraPark = () => {
 
                 <h4 className="font-semibold text-black mb-1">Lakes, Bridges and Boating</h4>
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-05.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-05.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-4 text-gray-700">
@@ -92,7 +92,7 @@ const JaneshwarMishraPark = () => {
 
                 <h4 className="font-semibold text-black mb-1">Musical Fountain and Laser Show</h4>
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-06.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-06.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-6 text-gray-700">
@@ -101,7 +101,7 @@ const JaneshwarMishraPark = () => {
 
                 <h4 className="font-semibold text-black mb-1">More Than Just a Park</h4>
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-07.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-07.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-6 text-gray-700">
@@ -114,7 +114,7 @@ const JaneshwarMishraPark = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-08.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-08.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -134,7 +134,7 @@ const JaneshwarMishraPark = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-09.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-09.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -159,7 +159,7 @@ const JaneshwarMishraPark = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-10.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-10.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -186,7 +186,7 @@ const JaneshwarMishraPark = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-11.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-11.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -254,6 +254,10 @@ const JaneshwarMishraPark = () => {
                 <h2 className="text-2xl font-bold mt-10 mb-4">
                     How to Reach Janeshwar Mishra Park
                 </h2>
+                <SectionImage
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-12.jpg"
+                    source="Rajeeb Dutta (Wikipedia)"
+                />
                 <p className="mb-4 text-gray-700">
                     Located in Gomti Nagar, one of Lucknow's most developed neighbourhood, Janeshwar Mishra Park is well connected to the rest of the city by road and metro. Whether you're arriving by train, flight or local transport, reaching the park is fairly straightforward.
                 </p>
@@ -283,7 +287,7 @@ const JaneshwarMishraPark = () => {
 
                 <h4 className="font-semibold text-black mb-1">Dr. Bhimrao Ambedkar Memorial Park</h4>
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-12.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-13.jpg"
                     source="Rajeeb Dutta (Wikipedia)"
                 />
                 <p className="mb-6 text-gray-700">
@@ -292,7 +296,7 @@ const JaneshwarMishraPark = () => {
 
                 <h4 className="font-semibold text-black mb-1">Gomti Riverfront and Marine Drive</h4>
                 <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-13.jpg"
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-14.jpg"
                     source="Wikimedia Commons"
                 />
                 <p className="mb-6 text-gray-700">
@@ -300,6 +304,10 @@ const JaneshwarMishraPark = () => {
                 </p>
 
                 <h4 className="font-semibold text-black mb-1">Chatori Gali & Food Valley</h4>
+                <SectionImage
+                    src="/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-15.jpg"
+                    source="Rohit Upadhyay"
+                />
                 <p className="mb-6 text-gray-700">
                     No exploration of Lucknow feels complete without food. Located within convenient reach of the park, Chatori Gali and Food Valley have become one of the city's most popular food streets. From local chaat and kebabs to modern snacks and desserts, it offers a chance to experience. Whether you're looking for a quick snack, a family dinner or a late-evening coffee, these places provide plenty of options.
                 </p>
@@ -316,10 +324,7 @@ const JaneshwarMishraPark = () => {
                 <p className="mb-6 text-gray-700">Ambedkar Memorial Park → Janeshwar Mishra Park → Gomti Riverfront → Marine Drive → Chatori Gali → Lulu Mall or Phoenix Palassio</p>
 
                 {/* Conclusion */}
-                <SectionImage
-                    src="/Image/Janeshwar-mishra-park-lucknow-travel-guide-14.jpg"
-                    source="Rohit Upadhyay"
-                />
+                
                 <p className="mb-4 text-gray-700">
                     Lucknow is often introduced through its monuments. People arrive expecting grand gateways, historic Imambaras, royal architecture and stories from the Nawabi era. Those places deserve their reputation. They are an essential part of the city's identity.
                 </p>

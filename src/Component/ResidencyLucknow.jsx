@@ -26,7 +26,7 @@ const ResidencyLucknow = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-01.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-01.jpg"
                     source="Incredible India"
                 />
 
@@ -48,7 +48,7 @@ const ResidencyLucknow = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-02.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-02.jpg"
                     source="Incredible India"
                 />
 
@@ -57,7 +57,7 @@ const ResidencyLucknow = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-03.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-02a.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-6 text-gray-700">
@@ -65,7 +65,7 @@ const ResidencyLucknow = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-04.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-03.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-6 text-gray-700">
@@ -73,7 +73,7 @@ const ResidencyLucknow = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-05.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-03a.jpg"
                     source="Wikipedia"
                 />
                 <p className="mb-6 text-gray-700">
@@ -81,7 +81,7 @@ const ResidencyLucknow = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-06.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-03b.jpg"
                     source="Wikipedia"
                 />
                 <p className="mb-6 text-gray-700">
@@ -92,7 +92,7 @@ const ResidencyLucknow = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-07.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-04.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-6 text-gray-700">
@@ -105,7 +105,7 @@ const ResidencyLucknow = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-08.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-05.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -120,7 +120,7 @@ const ResidencyLucknow = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-09.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-06.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-4 text-gray-700">
@@ -136,7 +136,7 @@ const ResidencyLucknow = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-10.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-07.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -156,7 +156,7 @@ const ResidencyLucknow = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-11.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-08.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -179,7 +179,7 @@ const ResidencyLucknow = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-12.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-09.jpg"
                     source="Incredible India"
                 />
 
@@ -202,7 +202,7 @@ const ResidencyLucknow = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-13.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-10.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -261,7 +261,7 @@ const ResidencyLucknow = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-14.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-11.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -288,7 +288,7 @@ const ResidencyLucknow = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-15.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-12.jpg"
                     source="Pexels/Unsplash/Wikimedia Commons"
                 />
 
@@ -301,7 +301,7 @@ const ResidencyLucknow = () => {
 
                 {/* Conclusion */}
                 <SectionImage
-                    src="/Image/Residency-lucknow-travel-guide-16.jpg"
+                    src="/Image/residency-lucknow-uttar-pradesh-travel-guide-13.jpg"
                     source="lucknow.nic.in"
                 />
                 <p className="mb-4 text-gray-700">

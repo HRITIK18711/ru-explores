@@ -2,17 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  { slug:"sikandar-bagh-lucknow-uttar-pradesh-travel-guide",title:"Sikandar Bagh Lucknow: History, Battle of 1857, Virangana Uda Devi, Timings & Visitor Guide",image:"/Image/sikandar-bagh-lucknow-uttar-pradesh-01.jpg"},
+  { slug:"residency-lucknow-uttar-pradesh-travel-guide",title:"The Residency Lucknow: History, Museum, Timings, Ticket Price & Travel Guide",image:"/Image/residency-lucknow-uttar-pradesh-travel-guide-01.jpg"},
+  { slug:"Janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide",title:"Janeshwar Mishra Park Lucknow: Exploring the City's Largest Green Escape (Timings, Attractions, Boating & Visitor Guide)",image:"/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-01.jpg"},
   { slug:"bara-imambara-lucknow-uttar-pradesh-travel-guide",title:"Bara Imambara, Lucknow: History, Bhool Bhulaiya, Timing, Entry Fee and Complete Travel Guide",image:"/Image/bara-imambara-lucknow-uttar-pradesh-travel-guide-01.jpg"},
-  { slug:"Janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide",title:" ",image:""},
-  { slug:"residency-lucknow-uttar-pradesh-travel-guide",title:" ",image:""},
-  { slug:"sikandar-bagh-lucknow-uttar-pradesh-travel-guide",title:" ",image:""},
-
-
-
-
-
-
-  { slug:"kedarkantha-trek-uttarakhand-travel-guide",title:"Kedarkantha Trek Uttarakhand – Best Time, Itinerary & Complete Snow Trek Guide",image:"/Image/Kedarkantha-trek-uttarakhand-travel-guide-01.jpg"},
   { slug:"pracheen-hanuman-mandir-connaught-place-delhi-travel-guide",title:"Pracheen Hanuman Mandir Delhi – History, Timings & the Soul of Connaught Place",image:"/Image/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide-01.jpg"},
   { slug:"palika-bazaar-connaught-place-new-delhi-travel-guide",title:"Palika Bazaar Delhi – Underground Shopping, Bargaining & the Chaos of Connaught Place",image:"/Image/palika-bazaar-connaught-place-new-delhi-travel-guide-01.jpg"},
   { slug:"tughlaqabad-fort-delhi-travel-guide",title:"Tughlaqabad Fort Delhi – History, Ruins, Mystery & the Story of a Forgotten City",image:"/Image/tughlaqabad-fort-delhi-travel-guide-01.jpg"},
@@ -20,6 +13,7 @@ const trending_stories = [
   { slug: "jantar-mantar-delhi-travel-guide", title: "Jantar Mantar Delhi - Complete Guide, History, Timings & Things to Do", image: "/Image/jantar-mantar-delhi-travel-guide-01.jpg" },
   { slug: "lajpat-nagar-market-delhi-travel-guide", title: "Lajpat Nagar Market Guide: Shopping, Food, Tips & How to Reach", image: "/Image/lajpat-nagar-market-delhi-01.png" },
   { slug: "sarojini-nagar-market-delhi-travel-guide", title: "Sarojini Nagar Market, Delhi: The Ultimate Budget Shopping Guide", image: "/Image/sarojini-nagar-market-delhi-01.png" },
+    { slug:"kedarkantha-trek-uttarakhand-travel-guide",title:"Kedarkantha Trek Uttarakhand – Best Time, Itinerary & Complete Snow Trek Guide",image:"/Image/Kedarkantha-trek-uttarakhand-travel-guide-01.jpg"},
   { slug: "safdarjung-tomb-delhi-travel-guide", title: "Safdarjung’s Tomb: Delhi’s Most Underrated Mughal Monument History, Timings and Travel Guide", image: "/Image/safdarjung-tomb-delhi-travel-guide-01.jpg" },
   { slug: "red-fort-delhi-travel-guide", title: "Red Fort, Delhi: History, Timings, Best Time to Visit & The Story Most People Miss", image: "/Image/red-fort-delhi-01.png" },
   { slug: "chopta-tungnath-chandrashila-trek-uttarakhand-travel-guide", title: "Chopta Tungnath Chandrashila Trek Uttarakhand – Best Time, Itinerary & Travel Guide", image: "/Image/chopta-tungnath-chandrashila-trek-uttarakhand-01.jpg" },

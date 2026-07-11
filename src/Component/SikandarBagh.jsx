@@ -26,7 +26,7 @@ const SikandarBagh = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-01.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-01.jpg"
                     source="Wikipedia"
                 />
 
@@ -52,7 +52,7 @@ const SikandarBagh = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-02.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-02.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -69,7 +69,7 @@ const SikandarBagh = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-03.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-03.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -87,7 +87,7 @@ const SikandarBagh = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-04.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-04.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -113,7 +113,7 @@ const SikandarBagh = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-05.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-05.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -139,7 +139,7 @@ const SikandarBagh = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-06.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-06.jpg"
                     source="Rohit Upadhyay"
                 />
 
@@ -161,7 +161,7 @@ const SikandarBagh = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-07.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-07.jpg"
                     source="Wikipedia"
                 />
 
@@ -217,7 +217,7 @@ const SikandarBagh = () => {
 
                 <h4 className="font-semibold text-black mb-1">The Residency</h4>
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-08.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-08.jpg"
                     source="Wikipedia"
                 />
                 <p className="mb-6 text-gray-700">
@@ -226,7 +226,7 @@ const SikandarBagh = () => {
 
                 <h4 className="font-semibold text-black mb-1">Hazratganj</h4>
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-09.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-09.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-6 text-gray-700">
@@ -235,7 +235,7 @@ const SikandarBagh = () => {
 
                 <h4 className="font-semibold text-black mb-1">Bara Imambara</h4>
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-10.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-10.jpg"
                     source="Rohit Upadhyay"
                 />
                 <p className="mb-6 text-gray-700">
@@ -244,7 +244,7 @@ const SikandarBagh = () => {
 
                 <h4 className="font-semibold text-black mb-1">Husainabad Heritage Walk</h4>
                 <SectionImage
-                    src="/Image/Sikandar-bagh-lucknow-travel-guide-11.jpg"
+                    src="/Image/sikandar-bagh-lucknow-uttar-pradesh-11.jpg"
                     source="Pexels/Unsplash/Wikimedia Commons"
                 />
                 <p className="mb-6 text-gray-700">
