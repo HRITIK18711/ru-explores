@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  { slug:"dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide",title:"Dilkusha Kothi Lucknow: History, Architecture & the Story Behind the Palace",image:"/Image/dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide-01.jpg"},
+  { slug:"old-lucknow-heritage-walk-lucknow-uttar-pradesh-travel-guide",title:"Heritage Walk in Lucknow: Exploring Rumi Darwaza, Chhota Imambara & Husainabad",image:"/Image/01-old-lucknow-heritage-walk.jpg"},
   { slug:"sikandar-bagh-lucknow-uttar-pradesh-travel-guide",title:"Sikandar Bagh Lucknow: History, Battle of 1857, Virangana Uda Devi, Timings & Visitor Guide",image:"/Image/sikandar-bagh-lucknow-uttar-pradesh-01.jpg"},
   { slug:"residency-lucknow-uttar-pradesh-travel-guide",title:"The Residency Lucknow: History, Museum, Timings, Ticket Price & Travel Guide",image:"/Image/residency-lucknow-uttar-pradesh-travel-guide-01.jpg"},
   { slug:"Janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide",title:"Janeshwar Mishra Park Lucknow: Exploring the City's Largest Green Escape (Timings, Attractions, Boating & Visitor Guide)",image:"/Image/janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide-01.jpg"},

@@ -50,6 +50,8 @@ import BaraImambara from "./Component/BaraImambara";
 import JaneshwarMishraPark from "./Component/JaneshwarMishraPark";
 import SikandarBagh from "./Component/SikandarBagh";
 import ResidencyLucknow from "./Component/ResidencyLucknow";
+import OldHeritageLucknow from "./Component/old_heritage_lucknow";
+import DilkushaKothi from "./Component/dilkhusha_kothi";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -195,7 +197,16 @@ function App() {
                 path="/chopta-tungnath-chandrashila-trek-uttarakhand-travel-guide"
                 element={<Tunghnath/>}
               />
+              <Route
+                path="/old-lucknow-heritage-walk-lucknow-uttar-pradesh-travel-guide"
+                element={<OldHeritageLucknow/>}
+              />
+              <Route
+                path="/dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide"
+                element={<DilkushaKothi/>}
+              />
 
+              
               <Route
                 path="/india-gate-delhi-travel-guide"
                 element={<IndiaGate />}
