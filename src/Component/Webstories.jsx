@@ -4,6 +4,24 @@ import { useEffect, useState } from "react";
 
 export const stories = [
 
+
+    {
+    id: 22,
+    slug: "bara-imambara-lucknow",
+    title: "Bara-Imambara-Lucknow",
+    createdBy: "Saniya Mishra",
+    image: "/Image/bara-imambara-lucknow-01.jpg",
+  }, 
+
+
+  {
+    id: 23,
+    slug: "old-lucknow-heritage-walk",
+    title: "Old-Lucknow-Heritage-Walk",
+    createdBy: "Saniya Mishra",
+    image: "/Image/01- old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg",
+  }, 
+
   {
     id: 10,
     slug: "humayun-tomb-delhi",
@@ -66,6 +84,7 @@ export const stories = [
     image: "/Image/safdarjung-tomb-delhi-01.jpg",
   }, 
 
+  
   {
     id: 11,
     slug: "akshardham-temple-delhi",

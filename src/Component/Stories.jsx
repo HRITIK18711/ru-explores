@@ -5,6 +5,35 @@ import { stories } from "./Webstories";
 
 // 🔥 SLUG BASED DATA
 const storiesData = {
+"bara-imambara-lucknow": [
+    { image: "/Image/bara-imambara-lucknow-01.jpg" },
+    { image: "/Image/bara-imambara-lucknow-02.jpg" },
+    { image: "/Image/bara-imambara-lucknow-03.jpg" },
+    { image: "/Image/bara-imambara-lucknow-04.jpg" },
+    { image: "/Image/bara-imambara-lucknow-05.jpg" },
+    { image: "/Image/bara-imambara-lucknow-06.jpg" },
+    { image: "/Image/bara-imambara-lucknow-07.jpg" },
+    { image: "/Image/bara-imambara-lucknow-08.jpg" },
+    { image: "/Image/bara-imambara-lucknow-09.jpg" },
+    { image: "/Image/bara-imambara-lucknow-10.jpg" },
+  ],
+
+
+"old-lucknow-heritage-walk": [
+    { image: "/Image/01- old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/02-bada-imambara-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/03-rumi-darwaza-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/04-chhota-imambara-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/05-clock-tower-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/06-husainabad-picture-gallery-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/07-satkhanda-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/08-lucknow-musical-fountain-show-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/09-best-street-food-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+    { image: "/Image/10-ru explores-old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg" },
+  ],
+
+
+
 
 "connaught-place-delhi": [
     { image: "/Image/connaught-place-delhi-01.jpg" },
