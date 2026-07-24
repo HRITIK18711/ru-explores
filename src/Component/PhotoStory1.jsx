@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+    { slug:"La Martiniere College Lucknow: History, Architecture, Timings & Visitor Guide",title:"La Martiniere College Lucknow: The School Inside a 200-Year-Old Palace",image:"/Image/la-martiniere-college-lucknow-uttar-pradesh-01.jpg"},
   { slug:"dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide",title:"Dilkusha Kothi Lucknow: History, Architecture & the Story Behind the Palace",image:"/Image/dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide-01.jpg"},
   { slug:"old-lucknow-heritage-walk-lucknow-uttar-pradesh-travel-guide",title:"Heritage Walk in Lucknow: Exploring Rumi Darwaza, Chhota Imambara & Husainabad",image:"/Image/01-old-lucknow-heritage-walk.jpg"},
   { slug:"sikandar-bagh-lucknow-uttar-pradesh-travel-guide",title:"Sikandar Bagh Lucknow: History, Battle of 1857, Virangana Uda Devi, Timings & Visitor Guide",image:"/Image/sikandar-bagh-lucknow-uttar-pradesh-01.jpg"},

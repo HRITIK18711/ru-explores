@@ -34,7 +34,9 @@ const MenuBar = () => {
     { name: "Web Stories", path: "/webstories" },
     { name: "Itineraries", path: "/" },
     { name: "Events", path: "/events" },
-    { name: "Metro Map", path: "/metro" }
+    { name: "Feedback", path: "/feedback" },
+    { name: "Metro Map", path: "/metro" },
+    
   ];
 
   const Travel_Guide = ["Stays/Hotels", "Rides", "Treks"];

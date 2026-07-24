@@ -52,6 +52,8 @@ import SikandarBagh from "./Component/SikandarBagh";
 import ResidencyLucknow from "./Component/ResidencyLucknow";
 import OldHeritageLucknow from "./Component/old_heritage_lucknow";
 import DilkushaKothi from "./Component/dilkhusha_kothi";
+import LaMartiniere from "./Component/LaMartiniere";
+import FeedbackForm from "./Component/FeedbackForm";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -139,6 +141,8 @@ function App() {
               <Route path="/disc" element={<Disc />} />
               <Route path="/kedar" element={<Kedar />} />
               <Route path="/metro" element={<MetroData />} />
+              <Route path="/feedback" element={<FeedbackForm />} />
+              
 
               <Route
                 path="/kedarkantha-trek-uttarakhand-travel-guide"
@@ -270,7 +274,11 @@ function App() {
                 path="/sikandar-bagh-lucknow-uttar-pradesh-travel-guide"
                 element={<SikandarBagh />}
               />
-
+              <Route
+                path="/La Martiniere College Lucknow: History, Architecture, Timings & Visitor Guide"
+                element={<LaMartiniere/>}
+              />
+              
             </Routes>
           </Layout>
 
