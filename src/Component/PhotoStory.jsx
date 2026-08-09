@@ -1,7 +1,10 @@
+import { image, title } from "framer-motion/client";
 import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  {slug:"kathmandu-nepal-travel-guide",title:"Kathmandu Nepal: Best Places, Shopping, Food, Cafes & Complete Travel Guide",image:"/Image/01-kathmandu-nepal.jpg"},
+  {slug:"nagarkot-nepal-travel-guide",title:"Nagarkot, Nepal: Best Places to Visit, Things to Do & Complete Travel Guide",image:"/Image/01-nagarkot-himalayan-view-nepal.jpg"},
   { slug:"bhaktapur-nepal-travel-guide",title:"Bhaktapur, Nepal: Best Places to Visit, Things to Do & Complete Travel Guide",image:"/Image/01-nyatpola-bhairav-temple-bhaktapur-nepal.jpg"},
   { slug:"La Martiniere College Lucknow: History, Architecture, Timings & Visitor Guide",title:"La Martiniere College Lucknow: The School Inside a 200-Year-Old Palace",image:"/Image/la-martiniere-college-lucknow-uttar-pradesh-01.jpg"},
   { slug:"dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide",title:"Dilkusha Kothi Lucknow: History, Architecture & the Story Behind the Palace",image:"/Image/dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide-01.jpg"},

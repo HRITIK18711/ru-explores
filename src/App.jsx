@@ -55,6 +55,8 @@ import DilkushaKothi from "./Component/dilkhusha_kothi";
 import LaMartiniere from "./Component/LaMartiniere";
 import FeedbackForm from "./Component/FeedbackForm";
 import BhaktapurNepal from "./Component/BhaktapurNepal";
+import NagarkotNepal from "./Component/NagarkotNepal";
+import KathmanduNepal from "./Component/KathmanduNepal";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -150,16 +152,27 @@ function App() {
                 element={<Kedarkantha/>}
               />
               <Route
+                path="/kathmandu-nepal-travel-guide"
+                element={<KathmanduNepal/>}
+              />
+              <Route
                 path="/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide"
                 element={<Hanumanmandir />}
               />
               <Route
                 path="/bhaktapur-nepal-travel-guide"
                 element={<BhaktapurNepal/>}
+
               />
               <Route
+                path="/nagarkot-nepal-travel-guide"
+                element={<NagarkotNepal/>}
+
+              />
+              
+              <Route
                 path="/palika-bazaar-connaught-place-new-delhi-travel-guide"
-                element={<Palikabazaar/>}
+                element={<NagarkotNepal/>}
               />
               <Route
                 path="/tughlaqabad-fort-delhi-travel-guide"

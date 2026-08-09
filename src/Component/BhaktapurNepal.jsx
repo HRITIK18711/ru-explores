@@ -474,20 +474,20 @@ const BhaktapurNepal = () => {
                 </div>
 
                 <div className="mt-6 pt-8">
-          <h3 className="text-2xl font-semibold mb-6">About the Author</h3>
+                    <h3 className="text-2xl font-semibold mb-6">About the Author</h3>
 
-          <div className="flex flex-col md:flex-row items-start gap-6">
-            <img
-              src="/Image/rohit.jpeg"
-              alt="Pragya Singh"
-              className="w-44 h-44 md:w-40 md:h-40 object-cover rounded-md"
-            />
+                    <div className="flex flex-col md:flex-row items-start gap-6">
+                        <img
+                            src="/Image/rohit.jpeg"
+                            alt="Pragya Singh"
+                            className="w-44 h-44 md:w-40 md:h-40 object-cover rounded-md"
+                        />
 
-            <p className="text-gray-800 leading-relaxed text-justify text-lg">
-              Hi, I’m Rohit, the explorer behind RU Explores. For me, travel is not just about reaching a destination but about understanding its culture, people, food and stories. I enjoy exploring places deeply, from mountain villages to local streets and sharing those experiences in a way that helps others travel with purpose. RU Explores is my attempt to turn travel into something more meaningful than just ticking locations off a list.
-            </p>
-          </div>
-        </div>
+                        <p className="text-gray-800 leading-relaxed text-justify text-lg">
+                            Hi, I’m Rohit, the explorer behind RU Explores. For me, travel is not just about reaching a destination but about understanding its culture, people, food and stories. I enjoy exploring places deeply, from mountain villages to local streets and sharing those experiences in a way that helps others travel with purpose. RU Explores is my attempt to turn travel into something more meaningful than just ticking locations off a list.
+                        </p>
+                    </div>
+                </div>
 
             </div>
         </div>

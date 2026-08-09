@@ -14,7 +14,7 @@ const Mehraulipark = () => {
 
         {/* TITLE */}
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          Mehrauli Archaeological Park Delhi: History, Monuments, Timings, Entry Fee 
+          Mehrauli Archaeological Park Delhi: History, Monuments, Timings, Entry Fee
         </h1>
 
         <h2 className="text-xl md:text-2xl font-semibold text-gray-700 mb-2">
@@ -75,7 +75,7 @@ const Mehraulipark = () => {
         />
 
         <p className="mb-4 text-gray-700">
-          One of the most fascinating things about exploring Mehrauli Archaeological Park is how naturally different centuries begin appearing beside each other while you walk. 
+          One of the most fascinating things about exploring Mehrauli Archaeological Park is how naturally different centuries begin appearing beside each other while you walk.
         </p>
 
         <p className="mb-4 text-gray-700">
@@ -112,7 +112,7 @@ const Mehraulipark = () => {
         />
 
         <p className="mb-6 text-gray-700">
-          Among the most historically important structures inside the park is Balban's Tomb built around 1287 CE. At first glance, the monument may appear simple compared to Delhi’s more visually dramatic tombs. But architecturally, it marks a major turning point in Indian history. Historians widely recognise it as the site of the first true arch and first true dome built in the Indian subcontinent. Before this, builders mainly relied on corbelled construction techniques. Balban’s Tomb introduced the true Islamic arch system that later shaped the architecture of countless Sultanate and Mughal monuments across India. Today, the structure stands partially ruined and open to the sky which strangely makes it feel even more atmospheric while walking through it. 
+          Among the most historically important structures inside the park is Balban's Tomb built around 1287 CE. At first glance, the monument may appear simple compared to Delhi’s more visually dramatic tombs. But architecturally, it marks a major turning point in Indian history. Historians widely recognise it as the site of the first true arch and first true dome built in the Indian subcontinent. Before this, builders mainly relied on corbelled construction techniques. Balban’s Tomb introduced the true Islamic arch system that later shaped the architecture of countless Sultanate and Mughal monuments across India. Today, the structure stands partially ruined and open to the sky which strangely makes it feel even more atmospheric while walking through it.
         </p>
 
         <h3 className="text-xl font-bold text-black mt-6 mb-2">Tomb of Muhammad Quli Khan & Metcalfe’s Dilkusha</h3>
@@ -330,21 +330,21 @@ const Mehraulipark = () => {
 
         {/* AUTHOR BIO */}
         <div className="mt-6 pt-8">
-        <h3 className="text-2xl font-semibold mb-6">About the Author</h3>
+          <h3 className="text-2xl font-semibold mb-6">About the Author</h3>
 
-        <div className="flex flex-col md:flex-row items-start gap-6">
-          <img
-            src="/Image/pragya.jpg"
-            alt="Pragya Singh"
-            className="w-44 h-44 md:w-40 md:h-40 object-cover rounded-md"
-          />
+          <div className="flex flex-col md:flex-row items-start gap-6">
+            <img
+              src="/Image/pragya.jpg"
+              alt="Pragya Singh"
+              className="w-44 h-44 md:w-40 md:h-40 object-cover rounded-md"
+            />
 
-          <p className="text-gray-800 leading-relaxed text-justify text-lg">
-            <span className="font-semibold">Pragya Singh </span>
-            is a Delhi-based travel writer and heritage enthusiast passionate about uncovering lesser-known historical places across India. From famous monuments like Qutub Minar to hidden ruins inside the Ridge forest, she focuses on telling the stories behind forgotten architecture and overlooked heritage sites.
-          </p>
+            <p className="text-gray-800 leading-relaxed text-justify text-lg">
+              <span className="font-semibold">Pragya Singh </span>
+              is a Delhi-based travel writer and heritage enthusiast passionate about uncovering lesser-known historical places across India. From famous monuments like Qutub Minar to hidden ruins inside the Ridge forest, she focuses on telling the stories behind forgotten architecture and overlooked heritage sites.
+            </p>
+          </div>
         </div>
-      </div>
 
       </div>
     </div>
