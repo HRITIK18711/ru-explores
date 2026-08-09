@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  { slug:"bhaktapur-nepal-travel-guide",title:"Bhaktapur, Nepal: Best Places to Visit, Things to Do & Complete Travel Guide",image:"/Image/01-nyatpola-bhairav-temple-bhaktapur-nepal.jpg"},
   { slug:"La Martiniere College Lucknow: History, Architecture, Timings & Visitor Guide",title:"La Martiniere College Lucknow: The School Inside a 200-Year-Old Palace",image:"/Image/la-martiniere-college-lucknow-uttar-pradesh-01.jpg"},
   { slug:"dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide",title:"Dilkusha Kothi Lucknow: History, Architecture & the Story Behind the Palace",image:"/Image/dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide-01.jpg"},
   { slug:"old-lucknow-heritage-walk-lucknow-uttar-pradesh-travel-guide",title:"Heritage Walk in Lucknow: Exploring Rumi Darwaza, Chhota Imambara & Husainabad",image:"/Image/01-old-lucknow-heritage-walk.jpg"},

@@ -54,6 +54,7 @@ import OldHeritageLucknow from "./Component/old_heritage_lucknow";
 import DilkushaKothi from "./Component/dilkhusha_kothi";
 import LaMartiniere from "./Component/LaMartiniere";
 import FeedbackForm from "./Component/FeedbackForm";
+import BhaktapurNepal from "./Component/BhaktapurNepal";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -151,6 +152,10 @@ function App() {
               <Route
                 path="/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide"
                 element={<Hanumanmandir />}
+              />
+              <Route
+                path="/bhaktapur-nepal-travel-guide"
+                element={<BhaktapurNepal/>}
               />
               <Route
                 path="/palika-bazaar-connaught-place-new-delhi-travel-guide"
