@@ -29,7 +29,7 @@ const MenuBar = () => {
 
   // Re-arranged links order as requested
   const navLinks = [
-    // { name: "Home", path: "/" },
+     { name: "Home", path: "/" },
     { name: "Photo Stories", path: "/photostory" },
     { name: "Web Stories", path: "/webstories" },
     { name: "Itineraries", path: "/" },
@@ -105,7 +105,7 @@ const MenuBar = () => {
 
             {/* 6. Metro Map */}
             <Link to={navLinks[5].path} className="px-4 py-2 text-sm font-bold text-white hover:text-[#FF6B35]">
-              {navLinks[5].name}
+              {navLinks[6].name}
             </Link>
 
             {/* 7. Calendar */}
