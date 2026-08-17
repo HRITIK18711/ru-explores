@@ -94,8 +94,8 @@ function HomePage() {
       <LatestNews />
       <PhotoStory />
       <Main_News_Section />
-      <Home_Sports_News />
-      <Home_Entertainment_News />
+      {/* <Home_Sports_News />
+      <Home_Entertainment_News /> */}
     </>
   );
 }

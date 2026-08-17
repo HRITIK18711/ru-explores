@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 
 const cards = [
-  { title: "Places to Explore", img: "/Image/Delhi.png" },
-  { title: "Markets to Explore ", img: "/Image/Marketstoexplore.png" },
-  { title: "Food/Cafe to Explore", img: "/Image/CafeinDelhi.png" },
-  { title: "Reviews/Stories", img: "/Image/reviewandstories.png" },
+  { title: "Delhi", img: "/Image/india-gate-delhi-02.png" },
+  { title: "Uttar-Pradesh", img: "/Image/bara-imambara-lucknow-uttar-pradesh-travel-guide-01.jpg" },
+  { title: "Uttarakhand", img: "/Image/chopta-tungnath-chandrashila-trek-uttarakhand-01.jpg" },
+  { title: "Nepal", img: "/Image/03-pashupatinath-temple-kathmandu-nepal.jpg" },
 ];
 
 export default function Main_News_Section() {
@@ -24,7 +24,7 @@ export default function Main_News_Section() {
     <>
       {/* SEO TAGS */}
       <Helmet>
-        <title>Things To Do in Delhi | Places, Markets & Cafes | RUExplores</title>
+        <title>Places To Explore | RUExplores</title>
 
         <meta
           name="description"
@@ -55,7 +55,7 @@ export default function Main_News_Section() {
       <div className="w-full px-4 sm:px-6 py-12 bg-transparent">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-bold mb-1 text-white">
-            Things To Do in Delhi
+            Places To Visit
           </h2>
           <p className="text-white mb-8">Explore and Travel</p>
 

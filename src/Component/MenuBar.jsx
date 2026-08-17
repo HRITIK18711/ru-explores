@@ -29,13 +29,13 @@ const MenuBar = () => {
 
   // Re-arranged links order as requested
   const navLinks = [
-    { name: "Home", path: "/" },
+    // { name: "Home", path: "/" },
     { name: "Photo Stories", path: "/photostory" },
     { name: "Web Stories", path: "/webstories" },
     { name: "Itineraries", path: "/" },
     { name: "Events", path: "/events" },
     { name: "Feedback", path: "/feedback" },
-    { name: "Metro Map", path: "/metro" },
+    { name: "Metro Map", path: "/metro" } 
     
   ];
 
@@ -50,7 +50,7 @@ const MenuBar = () => {
             : "bg-black/60 backdrop-blur-md border-white/20"
         } py-2 md:py-3`}
       >
-        <div className="px-6 flex justify-between items-center">
+        <div className="px-8 flex justify-between items-center">
 
           <Link to="/" className="flex items-center gap-2 z-[1010]">
             <img
