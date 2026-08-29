@@ -57,6 +57,7 @@ import FeedbackForm from "./Component/FeedbackForm";
 import BhaktapurNepal from "./Component/BhaktapurNepal";
 import NagarkotNepal from "./Component/NagarkotNepal";
 import KathmanduNepal from "./Component/KathmanduNepal";
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -79,8 +80,8 @@ function Layout({ children }) {
 
       {/* MAIN CONTENT AREA */}
       <div className="flex-grow w-full">
-  {children}
-</div>
+        {children}
+      </div>
 
       {!hideNavbar && <Footer />}
     </>
@@ -107,6 +108,7 @@ function App() {
 
       <Helmet>
         <title>RU Explores</title>
+        <meta name="google-adsense-account" content="ca-pub-3708107674627087" />
       </Helmet>
 
       <div className="relative min-h-screen overflow-x-hidden">
@@ -146,7 +148,6 @@ function App() {
               <Route path="/metro" element={<MetroData />} />
               <Route path="/feedback" element={<FeedbackForm />} />
               
-
               <Route
                 path="/kedarkantha-trek-uttarakhand-travel-guide"
                 element={<Kedarkantha/>}
@@ -162,17 +163,14 @@ function App() {
               <Route
                 path="/bhaktapur-nepal-travel-guide"
                 element={<BhaktapurNepal/>}
-
               />
               <Route
                 path="/nagarkot-nepal-travel-guide"
                 element={<NagarkotNepal/>}
-
               />
-              
               <Route
                 path="/palika-bazaar-connaught-place-new-delhi-travel-guide"
-                element={<NagarkotNepal/>}
+                element={<Palikabazaar />}
               />
               <Route
                 path="/tughlaqabad-fort-delhi-travel-guide"
@@ -228,7 +226,6 @@ function App() {
                 element={<DilkushaKothi/>}
               />
 
-              
               <Route
                 path="/india-gate-delhi-travel-guide"
                 element={<IndiaGate />}
@@ -269,24 +266,20 @@ function App() {
                 element={<Nizamuddin />}
               />
 
-
               <Route
                 path="/Janeshwar-mishra-park-lucknow-uttar-pradesh-travel-guide"
                 element={<JaneshwarMishraPark />}
               />
-
 
               <Route
                 path="/residency-lucknow-uttar-pradesh-travel-guide"
                 element={<ResidencyLucknow />}
               />
 
-
               <Route
                 path="/bara-imambara-lucknow-uttar-pradesh-travel-guide"
                 element={<BaraImambara />}
               />
-
 
               <Route
                 path="/sikandar-bagh-lucknow-uttar-pradesh-travel-guide"
