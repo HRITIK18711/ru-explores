@@ -57,6 +57,7 @@ import FeedbackForm from "./Component/FeedbackForm";
 import BhaktapurNepal from "./Component/BhaktapurNepal";
 import NagarkotNepal from "./Component/NagarkotNepal";
 import KathmanduNepal from "./Component/KathmanduNepal";
+import Pashupatinath from "./Component/Pashupatinath";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -289,6 +290,11 @@ function App() {
                 path="/La Martiniere College Lucknow: History, Architecture, Timings & Visitor Guide"
                 element={<LaMartiniere/>}
               />
+              <Route
+                path="/pashupatinath-temple-kathmandu-nepal-travel-guide"
+                element={<Pashupatinath/>}
+              />
+              
               
             </Routes>
           </Layout>
