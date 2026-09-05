@@ -55,9 +55,9 @@ export default function Main_News_Section() {
       <div className="w-full px-4 sm:px-6 py-12 bg-transparent">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-bold mb-1 text-white">
-            Places To Visit
+            Explore and Travel
           </h2>
-          <p className="text-white mb-8">Explore and Travel</p>
+          {/* <p className="text-white mb-8"></p> */}
 
           {/* DESKTOP GRID */}
           <div className="hidden md:grid grid-cols-2 lg:grid-cols-4 gap-6 place-items-center">

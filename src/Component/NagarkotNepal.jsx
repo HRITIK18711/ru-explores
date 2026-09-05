@@ -17,9 +17,9 @@ const NagarkotNepal = () => {
                     Nagarkot, Nepal: Best Places to Visit, Things to Do & Complete Travel Guide
                 </h1>
 
-                <p className="text-gray-600 mb-2">
+                {/* <p className="text-gray-600 mb-2">
                     <span className="font-semibold">Published On: 15 May, 2026</span>
-                </p>
+                </p> */}
 
                 <p className="text-gray-600 mb-6">
                     By <span className="font-semibold">Rohit Upadhyay</span>
