@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 const cards = [
   { title: "Delhi", img: "/Image/india-gate-delhi-02.png" },
-  { title: "Uttar-Pradesh", img: "/Image/bara-imambara-lucknow-uttar-pradesh-travel-guide-01.jpg" },
+  { title: "Uttar Pradesh", img: "/Image/bara-imambara-lucknow-uttar-pradesh-travel-guide-01.jpg" },
   { title: "Uttarakhand", img: "/Image/chopta-tungnath-chandrashila-trek-uttarakhand-01.jpg" },
   { title: "Nepal", img: "/Image/03-pashupatinath-temple-kathmandu-nepal.jpg" },
 ];
@@ -57,7 +57,7 @@ export default function Main_News_Section() {
           <h2 className="text-2xl sm:text-3xl font-bold mb-1 text-white">
             Explore and Travel
           </h2>
-          {/* <p className="text-white mb-8"></p> */}
+          <p className="text-white mb-8"></p>
 
           {/* DESKTOP GRID */}
           <div className="hidden md:grid grid-cols-2 lg:grid-cols-4 gap-6 place-items-center">
