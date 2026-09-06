@@ -57,7 +57,7 @@ import FeedbackForm from "./Component/FeedbackForm";
 import BhaktapurNepal from "./Component/BhaktapurNepal";
 import NagarkotNepal from "./Component/NagarkotNepal";
 import KathmanduNepal from "./Component/KathmanduNepal";
-import pashupatinath from "./Component/pashupatinath";
+import Pashupatinath from "./Component/pashupatinath";
 import Patan from "./Component/Patan";
 import Mustang from "./Component/Mustang";
 function ScrollToTop() {
@@ -291,16 +291,17 @@ function App() {
                 path="/La Martiniere College Lucknow: History, Architecture, Timings & Visitor Guide"
                 element={<LaMartiniere/>}
               />
-              <Route
-                path="/pashupatinath-temple-kathmandu-nepal-travel-guide"
-                element={<pashupatinath/>}
+              <Route 
+              path="/pashupatinath-temple-kathmandu-nepal-travel-guide" 
+              element={<Pashupatinath/>}
               />
-              < Route 
+             
+              <Route 
               path="/patan-nepal-travel-guide" 
               element={<Patan/>}
               />
 
-              < Route 
+              <Route 
               path="/mustang-nepal-travel-guide" 
               element={<Mustang/>}
               />
