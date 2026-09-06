@@ -59,7 +59,7 @@ import NagarkotNepal from "./Component/NagarkotNepal";
 import KathmanduNepal from "./Component/KathmanduNepal";
 import Pashupatinath from "./Component/pashupatinath";
 import Patan from "./Component/Patan";
-
+import Mustang from "./Component/Mustang";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -298,6 +298,11 @@ function App() {
               < Route 
               path="/patan-nepal-travel-guide" 
               element={<Patan/>}
+              />
+
+              < Route 
+              path="/mustang-nepal-travel-guide" 
+              element={<Mustang/>}
               />
               
             </Routes>
