@@ -57,8 +57,9 @@ import FeedbackForm from "./Component/FeedbackForm";
 import BhaktapurNepal from "./Component/BhaktapurNepal";
 import NagarkotNepal from "./Component/NagarkotNepal";
 import KathmanduNepal from "./Component/KathmanduNepal";
-// import Patan from "./Component/Patan";
-// import Mustang from "./Component/Mustang";
+import Pashupatinath from "./Component/pashupatinath";
+import Patan from "./Component/Patan";
+import Mustang from "./Component/Mustang";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
