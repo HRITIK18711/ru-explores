@@ -34,7 +34,7 @@ import Lotus from "./Component/Lotus";
 import Nizamuddin from "./Component/Nizamuddin";
 import PhotoStory from "./Component/PhotoStory";
 import MetroData from "./Component/Metrodata";
-import Tunghnath from "./Component/tunghnath"; 
+import Tunghnath from "./Component/tunghnath";
 import RedFort from "./Component/RedFort";
 import Safdarjunga from "./Component/Safdarjunga";
 import PhotoStory1 from "./Component/PhotoStory1";
@@ -60,6 +60,7 @@ import KathmanduNepal from "./Component/KathmanduNepal";
 import Pashupatinath from "./Component/pashupatinath";
 import Patan from "./Component/Patan";
 import Mustang from "./Component/Mustang";
+import Pokhara from "./Component/Pokhara";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -149,14 +150,14 @@ function App() {
               <Route path="/kedar" element={<Kedar />} />
               <Route path="/metro" element={<MetroData />} />
               <Route path="/feedback" element={<FeedbackForm />} />
-              
+
               <Route
                 path="/kedarkantha-trek-uttarakhand-travel-guide"
-                element={<Kedarkantha/>}
+                element={<Kedarkantha />}
               />
               <Route
                 path="/kathmandu-nepal-travel-guide"
-                element={<KathmanduNepal/>}
+                element={<KathmanduNepal />}
               />
               <Route
                 path="/pracheen-hanuman-mandir-connaught-place-delhi-travel-guide"
@@ -164,11 +165,11 @@ function App() {
               />
               <Route
                 path="/bhaktapur-nepal-travel-guide"
-                element={<BhaktapurNepal/>}
+                element={<BhaktapurNepal />}
               />
               <Route
                 path="/nagarkot-nepal-travel-guide"
-                element={<NagarkotNepal/>}
+                element={<NagarkotNepal />}
               />
               <Route
                 path="/palika-bazaar-connaught-place-new-delhi-travel-guide"
@@ -203,13 +204,13 @@ function App() {
               />
               <Route
                 path="/safdarjung-tomb-delhi-travel-guide"
-                element={<Safdarjunga/>}
+                element={<Safdarjunga />}
               />
               <Route
                 path="/sarojini-nagar-market-delhi-travel-guide"
-                element={<Sarojini/>}
+                element={<Sarojini />}
               />
-              
+
               <Route
                 path="/red-fort-delhi-travel-guide"
                 element={<RedFort />}
@@ -217,15 +218,15 @@ function App() {
 
               <Route
                 path="/chopta-tungnath-chandrashila-trek-uttarakhand-travel-guide"
-                element={<Tunghnath/>}
+                element={<Tunghnath />}
               />
               <Route
                 path="/old-lucknow-heritage-walk-lucknow-uttar-pradesh-travel-guide"
-                element={<OldHeritageLucknow/>}
+                element={<OldHeritageLucknow />}
               />
               <Route
                 path="/dilkhusha-kothi-garden-lucknow-uttar-pradesh-travel-guide"
-                element={<DilkushaKothi/>}
+                element={<DilkushaKothi />}
               />
 
               <Route
@@ -289,23 +290,27 @@ function App() {
               />
               <Route
                 path="/La Martiniere College Lucknow: History, Architecture, Timings & Visitor Guide"
-                element={<LaMartiniere/>}
+                element={<LaMartiniere />}
               />
-              <Route 
-              path="/pashupatinath-temple-kathmandu-nepal-travel-guide" 
-              element={<Pashupatinath/>}
-              />
-             
-              <Route 
-              path="/patan-nepal-travel-guide" 
-              element={<Patan/>}
+              <Route
+                path="/pashupatinath-temple-kathmandu-nepal-travel-guide"
+                element={<Pashupatinath />}
               />
 
-              <Route 
-              path="/mustang-nepal-travel-guide" 
-              element={<Mustang/>}
+              <Route
+                path="/patan-nepal-travel-guide"
+                element={<Patan />}
               />
-              
+
+              <Route
+                path="/mustang-nepal-travel-guide"
+                element={<Mustang />}
+              />
+
+              <Route
+                path="/pokhara-nepal-travel-guide"
+                element={<Pokhara />}
+              />
             </Routes>
           </Layout>
 
