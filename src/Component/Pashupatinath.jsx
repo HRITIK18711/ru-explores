@@ -1,13 +1,13 @@
 import React from "react";
 
-const SectionImage = ({ src, source = "Wikipedia", alt = "Pashupatinath Temple Kathmandu Nepal" }) => (
+const SectionImage = ({ src, source = "Wikipedia", alt = "pashupatinath Temple Kathmandu Nepal" }) => (
     <div className="my-6">
         <img src={src} className="w-full h-[420px] object-cover rounded-lg" alt={alt} />
         <p className="text-sm text-blue-500 mt-2">Image Source: {source}</p>
     </div>
 );
 
-const Pashupatinath = () => {
+const pashupatinath = () => {
     return (
         <div className="bg-gray-50 py-10 px-4">
             <div className="max-w-4xl mx-auto bg-white p-6 md:p-10 shadow rounded-lg mt-12">
@@ -348,4 +348,4 @@ const Pashupatinath = () => {
     );
 };
 
-export default Pashupatinath;
+export default pashupatinath;
