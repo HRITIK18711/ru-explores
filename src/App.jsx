@@ -57,7 +57,8 @@ import FeedbackForm from "./Component/FeedbackForm";
 import BhaktapurNepal from "./Component/BhaktapurNepal";
 import NagarkotNepal from "./Component/NagarkotNepal";
 import KathmanduNepal from "./Component/KathmanduNepal";
-import Pashupatinath from "./Component/Pashupatinath";
+import Pashupatinath from "./Component/pashupatinath";
+import Patan from "./Component/Patan";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -294,7 +295,10 @@ function App() {
                 path="/pashupatinath-temple-kathmandu-nepal-travel-guide"
                 element={<Pashupatinath/>}
               />
-              
+              < Route 
+              path="/patan-nepal-travel-guide" 
+              element={<Patan/>}
+              />
               
             </Routes>
           </Layout>
