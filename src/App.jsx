@@ -62,6 +62,7 @@ import Patan from "./Component/Patan";
 import Mustang from "./Component/Mustang";
 import Pokhara from "./Component/Pokhara";
 import Annapurna from "./Component/Annapurna";
+import Boudhanath from "./Component/Boudhanath";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -308,6 +309,10 @@ function App() {
               <Route
                 path="/patan-nepal-travel-guide"
                 element={<Patan />}
+              />
+              <Route
+                path="/boudhanath-stupa-kathmandu-nepal"
+                element={<Boudhanath />}
               />
 
               <Route
