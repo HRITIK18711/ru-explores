@@ -1,0 +1,257 @@
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Menu, X, ChevronDown, ArrowRight } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import Calendar from "react-calendar";
+import "react-calendar/dist/Calendar.css";
+
+const MenuBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  const [openDestination, setOpenDestination] = useState(false);
+  const [openGuide, setOpenGuide] = useState(false);
+  const [openCalendar, setOpenCalendar] = useState(false);
+
+  const [date, setDate] = useState(new Date());
+
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    isOpen && setIsOpen(false);
+  }, [location]);
+
+  // Re-arranged links order as requested
+  const navLinks = [
+     { name: "Home", path: "/" },
+    { name: "Photo Stories", path: "/photostory" },
+    { name: "Web Stories", path: "/webstories" },
+    { name: "Itineraries", path: "/" },
+    { name: "Events", path: "/events" },
+    { name: "Feedback", path: "/feedback" },
+    { name: "Metro Map", path: "/metro" } 
+    
+  ];
+
+  const Travel_Guide = ["Stays/Hotels", "Rides", "Treks"];
+
+  return (
+    <>
+      <nav
+        className={`fixed left-1/2 -translate-x-1/2 w-[92%] max-w-7xl z-[1000] transition-all duration-500 rounded-full border ${
+          scrolled || isOpen
+            ? "bg-black shadow-xl border-slate-100"
+            : "bg-black/60 backdrop-blur-md border-white/20"
+        } py-2 md:py-3`}
+      >
+        <div className="px-8 flex justify-between items-center">
+
+          <Link to="/" className="flex items-center gap-2 z-[1010]">
+            <img
+              src="/Image/logo1.png"
+              alt="logo"
+              className="w-20 md:w-32 h-12 md:h-14 object-contain"
+            />
+          </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center gap-1">
+
+            {/* 1. Photo Stories */}
+            <Link to={navLinks[1].path} className="px-4 py-2 text-sm font-bold text-white hover:text-[#FF6B35]">
+              {navLinks[1].name}
+            </Link>
+
+            {/* 2. Web Stories */}
+            <Link to={navLinks[2].path} className="px-4 py-2 text-sm font-bold text-white hover:text-[#FF6B35]">
+              {navLinks[2].name}
+            </Link>
+
+            {/* 3. Itineraries */}
+            <Link to={navLinks[3].path} className="px-4 py-2 text-sm font-bold text-white hover:text-[#FF6B35]">
+              {navLinks[3].name}
+            </Link>
+
+            {/* 4. Travel Guide */}
+            <div className="relative group px-4 py-2 text-sm font-bold text-white flex items-center gap-1 hover:text-[#FF6B35]">
+              <span>Travel Guide</span>
+              <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-300" />
+              <div className="absolute top-full left-0 pt-4 hidden group-hover:block">
+                <ul className="w-48 bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden">
+                  {Travel_Guide.map((item) => (
+                    <li key={item}>
+                      <Link
+                        to={`/destination/${item.toLowerCase().replace(" ", "-")}`}
+                        className="block px-5 py-3 text-sm font-medium text-slate-700 hover:bg-orange-50 hover:text-[#FF6B35]"
+                      >
+                        {item}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* 5. Events */}
+            <Link to={navLinks[4].path} className="px-4 py-2 text-sm font-bold text-white hover:text-[#FF6B35]">
+              {navLinks[4].name}
+            </Link>
+
+            {/* 6. Metro Map */}
+            <Link to={navLinks[5].path} className="px-4 py-2 text-sm font-bold text-white hover:text-[#FF6B35]">
+              {navLinks[6].name}
+            </Link>
+
+            {/* 7. Calendar */}
+            <div className="relative group px-4 py-2 text-sm font-bold text-white flex items-center gap-1 hover:text-[#FF6B35]">
+              <span>Calendar</span>
+              <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-300" />
+              <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 hidden group-hover:block">
+                <div className="bg-white p-4 rounded-2xl shadow-xl border border-slate-100">
+                  <Calendar onChange={setDate} value={date} />
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Mobile Toggle */}
+          <button
+            className="lg:hidden p-2 text-white rounded-full z-[1010]"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+      </nav>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="fixed inset-0 h-screen bg-[#4198db] z-[999] lg:hidden pt-28 px-8 pb-10 flex flex-col justify-between overflow-y-auto"
+          >
+            <div className="space-y-2">
+
+              <Link
+                to="/"
+                className="flex items-center justify-between py-4 px-4 rounded-2xl text-white hover:bg-white/10"
+              >
+                <span className="text-xl font-bold">Home</span>
+                <ArrowRight size={18} />
+              </Link>
+
+              {/* 1. Photo Stories Mobile */}
+              <Link
+                to={navLinks[1].path}
+                className="flex items-center justify-between py-4 px-4 rounded-2xl text-white hover:bg-white/10"
+              >
+                <span className="text-xl font-bold">{navLinks[1].name}</span>
+                <ArrowRight size={18} />
+              </Link>
+
+              {/* 2. Web Stories Mobile */}
+              <Link
+                to={navLinks[2].path}
+                className="flex items-center justify-between py-4 px-4 rounded-2xl text-white hover:bg-white/10"
+              >
+                <span className="text-xl font-bold">{navLinks[2].name}</span>
+                <ArrowRight size={18} />
+              </Link>
+
+              {/* 3. Itineraries Mobile */}
+              <Link
+                to={navLinks[3].path}
+                className="flex items-center justify-between py-4 px-4 rounded-2xl text-white hover:bg-white/10"
+              >
+                <span className="text-xl font-bold">{navLinks[3].name}</span>
+                <ArrowRight size={18} />
+              </Link>
+
+              {/* 4. Travel Guide Mobile */}
+              <button
+                onClick={() => setOpenGuide(!openGuide)}
+                className="w-full flex justify-between items-center py-4 px-4 text-white"
+              >
+                <span className="text-xl font-bold">Travel Guide</span>
+                <ChevronDown size={20} className={`${openGuide ? "rotate-180" : ""}`} />
+              </button>
+
+              {openGuide && (
+                <div className="ml-6 space-y-2">
+                  {Travel_Guide.map((item) => (
+                    <Link
+                      key={item}
+                      to={`/destination/${item.toLowerCase().replace(" ", "-")}`}
+                      className="block py-2 text-lg text-white"
+                    >
+                      {item}
+                    </Link>
+                  ))}
+                </div>
+              )}
+
+              {/* 5. Events Mobile */}
+              <Link
+                to={navLinks[4].path}
+                className="flex items-center justify-between py-4 px-4 rounded-2xl text-white hover:bg-white/10"
+              >
+                <span className="text-xl font-bold">{navLinks[4].name}</span>
+                <ArrowRight size={18} />
+              </Link>
+
+              {/* 6. Metro Map Mobile */}
+              <Link
+                to={navLinks[5].path}
+                className="flex items-center justify-between py-4 px-4 rounded-2xl text-white hover:bg-white/10"
+              >
+                <span className="text-xl font-bold">{navLinks[5].name}</span>
+                <ArrowRight size={18} />
+              </Link>
+
+              {/* 7. Calendar Mobile */}
+              <button
+                onClick={() => setOpenCalendar(!openCalendar)}
+                className="w-full flex justify-between items-center py-4 px-4 text-white"
+              >
+                <span className="text-xl font-bold">Calendar</span>
+                <ChevronDown size={20} className={`${openCalendar ? "rotate-180" : ""}`} />
+              </button>
+
+              {openCalendar && (
+                <div className="bg-white p-4 rounded-2xl">
+                  <Calendar onChange={setDate} value={date} />
+                </div>
+              )}
+
+            </div>
+
+            <div className="space-y-4">
+              <Link
+                to="/donate"
+                className="w-full py-4 bg-[#FF6B35] text-white text-center text-lg font-black rounded-2xl shadow-lg block"
+              >
+                Book Your Trip Now
+              </Link>
+
+              <p className="text-center text-white text-[10px] font-bold tracking-widest uppercase">
+                RU Explore • Travel with Passion
+              </p>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
+  );
+};
+
+export default MenuBar;
