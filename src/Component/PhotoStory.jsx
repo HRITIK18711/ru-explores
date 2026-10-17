@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  {slug:"annapurna-region-nepal-travel-guide",title:"Annapurna Region Nepal: The Complete Guide to Trekking, Adventure & Mountain Life",image:"/Image/01-annapurna-range-nepal.jpg"},
   {slug:"pokhara-nepal-travel-guide",title:"Pokhara Nepal: Best Places, Food & Complete Travel Guide",image:"/Image/01-phewa-lake-pokhara-nepal.jpg"},
   {slug:"mustang-nepal-travel-guide",title:"Mustang Nepal: Complete Travel Guide to Places, Culture & Things to Do",image:"/Image/01-tsarang-chorten-charang-mustang-nepal.jpg"},
   {slug:"patan-nepal-travel-guide",title:"Patan, Nepal: Best Places to Visit, Things to Do & Complete Travel Guide",image:"/Image/01-patan-lalitpur-nepal-aerial-view.jpg"},

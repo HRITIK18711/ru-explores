@@ -24,7 +24,7 @@ const Annapurna = () => {
                 <h3 className="text-xl font-bold mb-3 text-black">Annapurna Range</h3>
 
                 <SectionImage
-                    src="/Image/01-annapurna-range.jpg"
+                    src="/Image/01-annapurna-range-nepal.jpg"
                     source="Wikipedia"
                     alt="Annapurna Range"
                 />
