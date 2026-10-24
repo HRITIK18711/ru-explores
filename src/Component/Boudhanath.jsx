@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionImage = ({ src, source, alt = "Boudhanath Stupa Kathmandu Nepal" }) => (
     <div className="my-6">
-        <img src={src} className="w-full h-[420px] object-cover rounded-lg" alt={alt} />
+        <img src={src} className="w-full h-[400px] object-fill rounded-lg" alt={alt} />
         <p className="text-sm text-blue-500 mt-2">Image Source: {source}</p>
     </div>
 );
@@ -64,7 +64,7 @@ const Boudhanath = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/03-boudhanath-architecture-kathmandu.jpg"
+                    src="/Image/03-boudhanath-temple-ariel-view-kathmandu-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="History and Architecture of Boudhanath Stupa"
                 />
@@ -87,7 +87,7 @@ const Boudhanath = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/04-kora-boudhanath-stupa.jpg"
+                    src="/Image/04-prayer-wheels-boudhanath-temple-ariel-view-kathmandu-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Walk the Kora Boudhanath"
                 />
@@ -98,7 +98,7 @@ const Boudhanath = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/05-monasteries-near-boudhanath.jpg"
+                    src="/Image/05-kopan-monastery-kathmandu-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Monasteries around Boudhanath"
                 />
@@ -109,7 +109,7 @@ const Boudhanath = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/06-thangka-workshops-boudhanath.jpg"
+                    src="/Image/06-thangka-painting-kathmandu-nepal-tibet.jpg"
                     source="Wikimedia Commons"
                     alt="Thangka Artists at Boudhanath"
                 />
@@ -140,7 +140,7 @@ const Boudhanath = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/07-festivals-traditions-boudhanath.jpg"
+                    src="/Image/07-harmika-boudhanath-temple-kathmandu-nepal.jpg"
                     source="Pexels/Volker Meyer"
                     alt="Religious Importance and Traditions"
                 />
@@ -154,7 +154,7 @@ const Boudhanath = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/08-ceremonies-boudhanath-nepal.jpg"
+                    src="/Image/07-losar-kathmnadu-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Festivals at Boudhanath"
                 />
@@ -177,7 +177,7 @@ const Boudhanath = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/09-plan-your-visit-boudhanath.jpg"
+                    src="/Image/08-taragaon-museum-kathmandu-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Planning Your Visit to Boudhanath"
                 />
@@ -200,7 +200,7 @@ const Boudhanath = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/10-transport-kathmandu-nepal.jpg"
+                    src="/Image/09-shechen-monastery-kathmandu-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Reaching Boudhanath Stupa"
                 />
@@ -219,7 +219,7 @@ const Boudhanath = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/11-nearby-attractions-pashupatinath.jpg"
+                    src="/Image/10-ka-nying-shedrub-ling-monastery-kathmandu-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Nearby Attractions to Boudhanath"
                 />
@@ -237,7 +237,7 @@ const Boudhanath = () => {
                 </p>
 
                 <SectionImage
-                    src="/Image/12-boudhanath-reflection.jpg"
+                    src="/Image/11-boudhanath-temple-kathmandu-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Boudhanath Stupa Overview"
                 />

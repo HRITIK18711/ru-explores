@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionImage = ({ src, source }) => (
   <div className="my-6">
-    <img src={src} className="w-full h-[420px] object-cover rounded-lg" alt="La Martiniere College Lucknow" />
+   <img src={src} className="w-full h-[400px] object-fill rounded-lg" alt="La Martiniere College Lucknow"/>
     <p className="text-sm text-blue-500 mt-2">Image Source: {source}</p>
   </div>
 );
