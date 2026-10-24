@@ -68,8 +68,8 @@ export default function LatestNews() {
   };
 
   return (
-    <div className="w-full  py-15 px-4 md:px-10 ml-40 rounded-2xl">
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+    <div className="w-full  py-15 px-4 md:px-20 rounded-2xl">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
         {/* LEFT PANEL */}
         <div 

@@ -44,10 +44,10 @@ const trending_stories = [
 
 export default function TrendingSidebar() {
   return (
-    <div className="w-full px-2 sm:px-4 md:px-10 mt-6">
+    <div className="w-full ml-10 px-4 sm:px-6 md:px-10 mt-6">
 
       <div className="
-        w-full max-w-[1100px] py-15 px-4 md:px-10 ml-40 rounded-2xl
+        w-full max-w-[1370px] py-15 px-6 md:px-10 rounded-2xl
         
         bg-black/50 backdrop-blur-md
         sm:bg-black/30
