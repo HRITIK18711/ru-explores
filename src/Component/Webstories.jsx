@@ -4,6 +4,13 @@ import { useEffect, useState } from "react";
 
 export const stories = [
   {
+    id: 26,
+    slug: "butler-palace-lucknow-uttar-pradesh-web-story",
+    title: "Butler-Palace-Lucknow",
+    createdBy: "Muhammad Shoaib",
+    image: "/Image/01-butler-palace-lucknow-uttar-pradesh-web-story.jpg",
+  },
+  {
     id: 25,
     slug: "jaunpur-uttar-pradesh-web-story",
     title: "Jaunpur-Uttar-Pradesh",

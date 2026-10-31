@@ -319,6 +319,18 @@ const storiesData = {
     {image: "/Image/10-jaunpur-uttar-pradesh-web-story.jpg"},
      
   ],
+  "butler-palace-lucknow-uttar-pradesh-web-story": [
+    {image: "/Image/01-butler-palace-lucknow-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/02-butler-palace-lucknow-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/03-butler-palace-lucknow-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/04-butler-palace-lucknow-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/05-butler-palace-lucknow-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/06-butler-palace-lucknow-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/07-butler-palace-lucknow-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/08-butler-palace-lucknow-uttar-pradesh-web-story.jpg"},
+    
+     
+  ],
 };
 
 const thumbnails = {
