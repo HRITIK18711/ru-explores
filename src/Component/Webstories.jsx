@@ -3,7 +3,14 @@ import { Helmet } from "react-helmet";
 import { useEffect, useState } from "react";
 
 export const stories = [
-
+  
+{
+    id: 24,
+    slug: "all-saints-garrison-church-lucknow-uttar-pradesh-web-story",
+    title: "All-Saints-Garrison-Church",
+    createdBy: "Syed Adliya Ghayas",
+    image: "/Image/01-all-saints-garrison-church-lucknow-uttar-pradesh.jpg",
+  },  
 
     {
     id: 22,
@@ -21,6 +28,8 @@ export const stories = [
     createdBy: "Saniya Mishra",
     image: "/Image/01- old-lucknow-heritage-walk-lucknow-uttar-pradesh.jpg",
   }, 
+
+ 
 
   {
     id: 10,

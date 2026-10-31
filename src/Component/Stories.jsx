@@ -293,11 +293,22 @@ const storiesData = {
     {image: "/Image/akshardham-temple-delhi-travel-guide-08.jpg"},
     {image: "/Image/akshardham-temple-delhi-travel-guide-09.jpg"},
   ],
-  // ⚡ (baaki tumhara same data — unchanged)
+
+  
+  "all-saints-garrison-church-lucknow-uttar-pradesh-web-story": [
+    {image: "/Image/01-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
+    {image: "/Image/02-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
+    {image: "/Image/03-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
+    {image: "/Image/04-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
+    {image: "/Image/05-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
+    {image: "/Image/06-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
+    {image: "/Image/07-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
+    {image: "/Image/08-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
+    
+  ],
+  
 };
 
-// 🔥 THUMBNAILS (IMPORTANT)
-// 🔥 THUMBNAILS
 const thumbnails = {
   "connaught-place-delhi": "/Image/connaught-place-delhi-01.jpg",
 
