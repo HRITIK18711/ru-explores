@@ -167,7 +167,7 @@ const Annapurna = () => {
 
                 <h4 className="font-semibold text-black mb-1">Ghandruk and the Southern Hills</h4>
                 <SectionImage
-                    src="/Image/04-ghandruk-southern-hills-nepal.jpg"
+                    src="/Image/04-ghandruk-gandaki-province-nepal.jpg"
                     source="Wikipedia"
                     alt="Ghandruk and the Southern Hills"
                 />
@@ -186,7 +186,7 @@ const Annapurna = () => {
 
                 <h4 className="font-semibold text-black mb-1">Moving Towards Manang</h4>
                 <SectionImage
-                    src="/Image/05-buddhist-temple-upper-pisang-nepal.jpg"
+                    src="/Image/05-pisang-buddhist-temple-gandanki-province-nepal.jpg"
                     source="Wikipedia"
                     alt="Buddhist Temple Upper Pisang"
                 />
@@ -202,7 +202,7 @@ const Annapurna = () => {
 
                 <h4 className="font-semibold text-black mb-1">Following the Kali Gandaki</h4>
                 <SectionImage
-                    src="/Image/06-hot-spring-tatopani-nepal.jpg"
+                    src="/Image/06-hot-spring-tatopani-gandaki-province-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Hot Spring in Tatopani"
                 />
@@ -241,7 +241,7 @@ const Annapurna = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/08-annapurna-base-camp-nepal.jpg"
+                    src="/Image/08-annapurna-base-camp-nepal-01.JPG"
                     source="Wikimedia Commons"
                     alt="Annapurna Base Camp Nepal"
                 />
@@ -264,7 +264,7 @@ const Annapurna = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/09-lake-tilicho-manang-nepal.jpg"
+                    src="/Image/09-tilicho-lake-annapurna-manang-nepal.jpg"
                     source="Wikipedia"
                     alt="Lake Tilicho Manang Nepal"
                 />
@@ -309,7 +309,7 @@ const Annapurna = () => {
 
                 <h4 className="font-semibold text-black mb-1">Food Becomes Part of the Journey</h4>
                 <SectionImage
-                    src="/Image/10-food-in-annapurna-nepal.jpg"
+                    src="/Image/10-dal-bhat-nepal.jpg"
                     source="Wikimedia Commons"
                     alt="Food in Annapurna"
                 />
@@ -325,7 +325,7 @@ const Annapurna = () => {
 
                 <h4 className="font-semibold text-black mb-1">Life Around the Teahouse</h4>
                 <SectionImage
-                    src="/Image/11-teahouse-life-annapurna-nepal.jpg"
+                    src="/Image/11-jomsom-street-nepal.jpg"
                     source="Wikipedia"
                     alt="Life Around the Teahouse"
                 />
@@ -365,7 +365,7 @@ const Annapurna = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/14-bharal-blue-sheep-nepal.jpg"
+                    src="/Image/14-bharal-blue-sheep-annapurna-nepal.jpg"
                     source="Wikipedia"
                     alt="Bharal (Blue Sheep) Annapurna"
                 />
@@ -399,7 +399,7 @@ const Annapurna = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/17-dhamkar-caves-mustang-nepal.jpg"
+                    src="/Image/17-dhakmar-cave-mustang-nepal.jpg"
                     source="Wikipedia"
                     alt="Dhamkar Caves Mustang"
                 />
