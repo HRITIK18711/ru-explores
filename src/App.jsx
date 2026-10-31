@@ -64,6 +64,7 @@ import Pokhara from "./Component/Pokhara";
 import Annapurna from "./Component/Annapurna";
 import Boudhanath from "./Component/Boudhanath";
 import GarissonChurch from "./Component/GarrisonChurch";
+import Jaunpur from "./Component/Jaunpur";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -332,6 +333,10 @@ function App() {
               <Route
                 path="/all-saints-garrison-church-lucknow-uttar-pradesh"
                 element={<GarissonChurch/>}
+              />
+              <Route
+                path="/jaunpur-uttar-pradesh"
+                element={<Jaunpur/>}
               />
 
             </Routes>
