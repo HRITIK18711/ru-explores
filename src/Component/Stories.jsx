@@ -306,7 +306,19 @@ const storiesData = {
     {image: "/Image/08-all-saints-garrison-church-lucknow-uttar-pradesh.jpg"},
     
   ],
-  
+  "jaunpur-uttar-pradesh-web-story": [
+    {image: "/Image/01-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/02-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/03-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/04-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/05-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/06-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/07-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/08-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/09-jaunpur-uttar-pradesh-web-story.jpg"},
+    {image: "/Image/10-jaunpur-uttar-pradesh-web-story.jpg"},
+     
+  ],
 };
 
 const thumbnails = {

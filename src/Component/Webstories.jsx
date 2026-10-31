@@ -3,7 +3,13 @@ import { Helmet } from "react-helmet";
 import { useEffect, useState } from "react";
 
 export const stories = [
-  
+  {
+    id: 25,
+    slug: "jaunpur-uttar-pradesh-web-story",
+    title: "Jaunpur-Uttar-Pradesh",
+    createdBy: "Atika Bano",
+    image: "/Image/01-jaunpur-uttar-pradesh-web-story.jpg",
+  },
 {
     id: 24,
     slug: "all-saints-garrison-church-lucknow-uttar-pradesh-web-story",
