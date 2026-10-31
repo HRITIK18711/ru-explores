@@ -63,6 +63,7 @@ import Mustang from "./Component/Mustang";
 import Pokhara from "./Component/Pokhara";
 import Annapurna from "./Component/Annapurna";
 import Boudhanath from "./Component/Boudhanath";
+import GarissonChurch from "./Component/GarrisonChurch";
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -180,6 +181,7 @@ function App() {
                 path="/nagarkot-nepal-travel-guide"
                 element={<NagarkotNepal />}
               />
+
               <Route
                 path="/palika-bazaar-connaught-place-new-delhi-travel-guide"
                 element={<Palikabazaar />}
@@ -326,6 +328,12 @@ function App() {
                 path="/pokhara-nepal-travel-guide"
                 element={<Pokhara />}
               />
+
+              <Route
+                path="/all-saints-garrison-church-lucknow-uttar-pradesh"
+                element={<GarissonChurch/>}
+              />
+
             </Routes>
           </Layout>
 

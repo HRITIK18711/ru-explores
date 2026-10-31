@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const trending_stories = [
+  {slug:"all-saints-garrison-church-lucknow-uttar-pradesh",title:"The Red-Brick Heritage: All Saints Garrison Church Lucknow",image:"/Image/01-all-saints-garrison-church-lucknow-uttar-pradesh-01.jpg"},
   {slug:"boudhanath-stupa-kathmandu-nepal",title:"Boudhanath Stupa, Kathmandu: History, Timings, Entry Fee & Travel Guide",image:"/Image/01-boudhanath-temple-ariel-view-kathmandu-nepal-pexels-volker-meyer.jpg"}, 
   {slug:"annapurna-region-nepal-travel-guide",title:"Annapurna Region Nepal: The Complete Guide to Trekking, Adventure & Mountain Life",image:"/Image/01-annapurna-range-nepal.jpg"},
   {slug:"pokhara-nepal-travel-guide",title:"Pokhara Nepal: Best Places, Food & Complete Travel Guide",image:"/Image/01-phewa-lake-pokhara-nepal.jpg"},

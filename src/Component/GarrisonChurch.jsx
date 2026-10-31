@@ -14,17 +14,15 @@ const GarissonChurch = () => {
 
                 {/* TITLE */}
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
-                    All Saints Garrison Church Lucknow: History, Architecture & Visitor Guide
+                    The Red-Brick Heritage: All Saints Garrison Church Lucknow
                 </h1>
 
                 <p className="text-gray-600 mb-6">
                     By <span className="font-semibold">Syed Adliya Ghayas</span>
                 </p>
 
-                <h3 className="text-xl font-bold mb-3 text-black">The Red-Brick Heritage: All Saints Garrison Church Lucknow</h3>
-
                 <SectionImage
-                    src="/Image/01-all-saints-garrison-church.jpg"
+                    src="/Image/01-all-saints-garrison-church-lucknow-uttar-pradesh-01.jpg"
                     source="Wikimedia Commons"
                     alt="All Saints Garrison Church Lucknow"
                 />
@@ -43,7 +41,7 @@ const GarissonChurch = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/02-all-saints-unique-architecture.jpg"
+                    src="/Image/02-all-saints-garrison-church-lucknow-uttar-pradesh-01.jpg"
                     source="lucknow.nic.in"
                     alt="All Saints Garrison Church Unique Features"
                 />
@@ -62,7 +60,7 @@ const GarissonChurch = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/03-history-of-garrison-church.jpg"
+                    src="/Image/03-all-saints-garrison-church-lucknow-uttar-pradesh-01.jpg"
                     source="lucknow.nic.in"
                     alt="History of All Saints Garrison Church"
                 />
@@ -85,7 +83,7 @@ const GarissonChurch = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/04-garrison-church-architecture.jpg"
+                    src="/Image/04-all-saints-garrison-church-lucknow-uttar-pradesh-01.jpg"
                     source="Wikimedia Commons"
                     alt="Architecture of All Saints Garrison Church"
                 />
@@ -112,7 +110,7 @@ const GarissonChurch = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/05-church-interior-today.jpg"
+                    src="/Image/05-all-saints-garrison-church-lucknow-uttar-pradesh-01.jpg"
                     source="Wikipedia"
                     alt="All Saints Garrison Church Today"
                 />
@@ -127,7 +125,7 @@ const GarissonChurch = () => {
                 </h2>
 
                 <SectionImage
-                    src="/Image/06-visiting-garrison-church.jpg"
+                    src="/Image/06-all-saints-garrison-church-lucknow-uttar-pradesh-01.jpg"
                     source="lucknow.nic.in"
                     alt="Planning a visit to Garrison Church"
                 />
@@ -153,7 +151,7 @@ const GarissonChurch = () => {
 
                 <h4 className="font-semibold text-black mb-1">Dilkusha Kothi</h4>
                 <SectionImage
-                    src="/Image/07-dilkusha-kothi-lucknow.jpg"
+                    src="/Image/07-dilkusha-kothi-lucknow-uttar-pradesh-01.jpg"
                     source="Rohit Upadhyay"
                     alt="Dilkusha Kothi Lucknow"
                 />
@@ -163,7 +161,7 @@ const GarissonChurch = () => {
 
                 <h4 className="font-semibold text-black mb-1">La Martiniere College</h4>
                 <SectionImage
-                    src="/Image/08-la-martiniere-college.jpg"
+                    src="/Image/08-la-martiniere-college-lucknow-uttar-pradesh-01.jpg"
                     source="YouTube/Sixty and Travelling"
                     alt="La Martiniere College Lucknow"
                 />
@@ -234,7 +232,7 @@ const GarissonChurch = () => {
 
                     <div className="flex flex-col md:flex-row items-start gap-6">
                         <img
-                            src="/Image/syed-adliya-ghayas.jpeg"
+                            src="/Image/adliya.jpeg"
                             alt="Syed Adliya Ghayas"
                             className="w-44 h-44 md:w-40 md:h-40 object-cover rounded-md"
                         />
